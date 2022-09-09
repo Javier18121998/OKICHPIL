@@ -92,6 +92,7 @@ body{
 .nav_container{
     display: flex;
     flex-direction: row;
+    height: 100%;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.079);
 }
@@ -214,7 +215,7 @@ body{
     justify-content: space-between;
     width: 100%;
     height: 150%;
-    margin: 3.35% 0 0 0;    
+    margin: 8.25% 0 0 0;    
     background-color: rgba(0, 0, 0, 0.111);
 }
 .info_certs_first{
@@ -235,8 +236,8 @@ body{
     height: 69.5%;
 }
 .info_certs_second img{
-    height: 20.5%;
-    width: 10.5%;
+    height: 34.5%;
+    width: 9.25%;
 }
 .info_certs_third{
     display: flex;
@@ -245,8 +246,8 @@ body{
     height: 69.5%;
 }
 .info_certs_third img{
-    height: 20%;
-    width: 12.5%;
+    height: 28%;
+    width: 12%;
 }
 .info_certs_last{
     display: flex;
@@ -256,15 +257,13 @@ body{
     height: 69.5%;
 }
 .info_certs_last img{
-    height: 17.5%;
-    width: 21%;
+    height: 28.75%;
+    width: 18%;
 }
 .info_certs_container div p{
     color: #ffffff;
     margin-left: 4%;
     letter-spacing: 0.319vh;
-    font-size: 2.4vh;
+    font-size: 2.5vh;
     font-family: 'Poppins', sans-serif;
-}
-.about_container{
 }
