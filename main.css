@@ -69,8 +69,9 @@ body{
 .text_rowl_contact h5{
     margin: 5% 0 0 0;
     color: #ffffff;
-    font-size: 2.55vh;
-    letter-spacing: 0.12vh;
+    font-size: 2.54vh;
+    letter-spacing: 0.274vh;
+    word-spacing: 0.7vh;
     font-family: 'Poppins', sans-serif;
 }
 .logo_start{
@@ -104,22 +105,22 @@ body{
     margin: 0 10% 0 7%;
 }
 .fb{
+    height: 21.9495%;
     width: 4.749%;
-    height: 19.9495%;
     cursor: pointer;
 }
 .ig{
+    height: 21.9495%;
     width: 8.8952%;
-    height: 19.9495%;
     cursor: pointer;
 }
 .you{
+    height: 19.2895%;
     width: 9.4882%;
-    height: 17.2895%;
     cursor: pointer;
 }
 .sea{
-    height: 17.2895%;
+    height: 19.2895%;
     width: 7.70919%;
     cursor: pointer;
 }
@@ -148,7 +149,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 50%;
+    height: 57%;
     width: 100%;
     background-color: rgba(167, 244, 25, 0.898);
 }
@@ -191,7 +192,7 @@ body{
     justify-content: center;
     align-items: center;
     background-color: orange;
-    height: 250%;
+    height: 270%;
     width: 17%;
 }
 .view_more_boton a{
@@ -266,4 +267,7 @@ body{
     letter-spacing: 0.319vh;
     font-size: 2.5vh;
     font-family: 'Poppins', sans-serif;
+}
+.about_container{
+
 }
