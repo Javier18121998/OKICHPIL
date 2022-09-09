@@ -13,7 +13,7 @@ body{
     position: absolute;
     top: 0;
     width: 100%;
-    height: 164.45%;
+    height: 180%;
     z-index: 0;
     background-color: black;
 }
@@ -214,7 +214,7 @@ body{
     justify-content: space-between;
     width: 100%;
     height: 150%;
-    margin: 4.75% 0 0 0;    
+    margin: 3.35% 0 0 0;    
     background-color: rgba(0, 0, 0, 0.111);
 }
 .info_certs_first{
@@ -263,6 +263,8 @@ body{
     color: #ffffff;
     margin-left: 4%;
     letter-spacing: 0.319vh;
-    font-size: 2.5vh;
+    font-size: 2.4vh;
     font-family: 'Poppins', sans-serif;
+}
+.about_container{
 }
