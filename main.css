@@ -292,9 +292,134 @@ body{
 }
 .about_history_Container{
     position: absolute;
-    top: 35%;
+    top: 30%;
     width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+}
+.about_container{
+    display: flex;
+    flex-direction: column;
+    width: 43%;
+    margin-left: 5%;
+}
+.subtitle{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    height: 3.3060037%;
+}
+.subtitle p{
+    color: #ff9002;
+    font-size: 2.56vh;
+    font-family: 'Poppins', sans-serif;
+}
+.title{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    height: 24.699425%;
+    margin-top: 3.25%;
+}
+.title p{
+    font-family: 'Marcellus', serif;
+    font-size: 8vh;
+}
+.img_about{
+    width: 100%;
+    height: 44.2079%;
+    margin-top: 10%;
+}
+.img_about img{
+    width: 100%;
+    height: 100%;
+}
+.help_phone{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    top: 75%;
+    left: 15%;
+    width: 30%;
+    height: 15.5%;
+    box-shadow: 4px 7px 15px 3px #00000096;
+    background-color: #ffffff;
+}
+.help_phone h6{
+    font-size: 2.95vh;
+    font-family: 'Marcellus', serif;
+    color: #212121;
+    letter-spacing: 0.15vh;
+    word-spacing: 0.3vh;
+    margin: 2.35% 0 0 0;
+}
+.help_phone h4{
+    font-size: 7vh;
+    color: #ff9002;
+    margin: 3.75% 0 0 0;
+}
+.paragraph_about_container{
+    width: 42.5%;
+}
+.paragraph1 p{
+    font-size: 3vh;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 0.2vh;
+    line-height: 4.79vh;
+    color: #808080;
+    margin: 9.45% 0 0 0;
+}
+.paragraph2 ul{
+    font-size: 3vh;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 0.2vh;
+    color: #808080;
+    margin: 9.45% 0 0 0;
+}
+.paragraph2 ul.ul{
+    list-style-position: outside;
+}
+.paragraph2 ul li::marker{
+    color: orange;
+    list-style-type: circle;
+    font-size: 1.2em;
+}
+.read_more{
+    margin: 15% 0 0 0;
+    width: 100%;
+    height: 10%;
+}
+.make_your_order_boton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ff9002;
+    width: 27.5%;
+    height: 60%;
+    cursor: pointer;
+}
+.make_your_order_boton a{
+    color: #ffffff;
+    font-size: 2.549vh;
+    letter-spacing: 0.22vh;
+    text-decoration: none;
+}
+.for_us_content{
+    position: absolute;
+    margin-top: 138.95%;
+    width: 100%;
+    height: 100%;
+}
+.background_image_Us{
+    position: relative;
+    width: 100%;
+    height: 182.5%;
+}
+.background_image_Us img{
+    width: 100%;
+    height: 100%;
 }
