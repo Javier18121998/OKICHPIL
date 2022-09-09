@@ -5,6 +5,7 @@ const contacts_page = document.getElementById('contacts_page');
 const boton_build = document.getElementById('boton-build');
 const view_more_boton = document.getElementById('view-more-boton');
 const your_order_boton = document.getElementById('your-order-boton');
+const view_more_botoncontainer = document.getElementById('view-more-botoncontainer');
 start_page.addEventListener('mouseover', function(){
     start_page.style.color = "#ff9002";
 });
@@ -46,4 +47,10 @@ your_order_boton.addEventListener('mouseover', function(){
 });
 your_order_boton.addEventListener('mouseout', function(){
     your_order_boton.style.backgroundColor = "orange";
+});
+view_more_botoncontainer.addEventListener('mouseover', function(){
+    view_more_botoncontainer.style.backgroundColor = "rgb(255, 106, 0)";
+});
+view_more_botoncontainer.addEventListener('mouseout', function(){
+    view_more_botoncontainer.style.backgroundColor = "orange";
 });
