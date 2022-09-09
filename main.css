@@ -102,25 +102,26 @@ body{
     justify-content: space-around;
     align-items: center;
     width: 12.5%;
+    height: 80%;
     margin: 0 10% 0 7%;
 }
 .fb{
-    height: 21.9495%;
+    height: 20.9495%;
     width: 4.749%;
     cursor: pointer;
 }
 .ig{
-    height: 21.9495%;
-    width: 8.8952%;
+    height: 20.9495%;
+    width: 10.6952%;
     cursor: pointer;
 }
 .you{
-    height: 19.2895%;
-    width: 9.4882%;
+    height: 18.2895%;
+    width: 11.4882%;
     cursor: pointer;
 }
 .sea{
-    height: 19.2895%;
+    height: 18.2895%;
     width: 7.70919%;
     cursor: pointer;
 }
@@ -132,12 +133,14 @@ body{
     display: flex;
     justify-content: space-between;
     width: 100%;
+    height: 80%;
 }
 .navigator nav h5{
     color: #ffffff;
     font-size: 2.145vh;
     font-family: 'Poppins', sans-serif;
     cursor: pointer;
+    height: 60%;
 }
 .build_boton{
     display: flex;
