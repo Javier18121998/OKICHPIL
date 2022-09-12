@@ -31,7 +31,7 @@ contacts_page.addEventListener('mouseout', function(){
     contacts_page.style.color = "#ffffff";
 });
 boton_build.addEventListener('mouseover', function(){
-    boton_build.style.backgroundColor = "rgb(87, 176, 31)";
+    boton_build.style.backgroundColor = "rgb(79, 184, 13)";
 });
 boton_build.addEventListener('mouseout', function(){
     boton_build.style.backgroundColor = "rgba(167, 244, 25, 0.898)";
