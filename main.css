@@ -520,16 +520,38 @@ body{
 }
 .products_and_gallery_container{
     position: absolute;
-    margin-top: 192.5%;
+    margin-top: 198%;
     width: 100%;
-    height: 100%;
+    height: 200%;
 }
 .background_image_products{
     width: 100%;
-    height: 340%;
+    height: 200%;
     z-index: 1;
 }
 .background_image_products img{
     width: 100%;
     height: 100%;
+}
+.info_products_andgallery_Content{
+    position: absolute;
+    top: 13%;
+}
+.gallery_Container_content_from{
+    position: static;
+}
+.background_image_content_from_products{
+    position: absolute;
+}
+.text_content_products_content{
+    position:absolute;
+}
+
+.gallery_Container{
+    position: absolute;
+    margin-top: 1800px;
+}
+#self_Testimones, #more_about, #footer{
+    position: absolute;
+    margin-top: 10000px;
 }
