@@ -809,7 +809,7 @@ body{
     height: 100%;
     width: 100%;
 }
-#self_Testimones, #more_about, #footer{
+#more_about, #footer{
     position: absolute;
     margin-top: 10000px;
 }
