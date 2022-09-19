@@ -6,6 +6,7 @@ const boton_build = document.getElementById('boton-build');
 const view_more_boton = document.getElementById('view-more-boton');
 const your_order_boton = document.getElementById('your-order-boton');
 const view_more_botoncontainer = document.getElementById('view-more-botoncontainer');
+const viewer_boton_products = document.getElementById('viewer-boton-products');
 start_page.addEventListener('mouseover', function(){
     start_page.style.color = "#ff9002";
 });
@@ -53,4 +54,10 @@ view_more_botoncontainer.addEventListener('mouseover', function(){
 });
 view_more_botoncontainer.addEventListener('mouseout', function(){
     view_more_botoncontainer.style.backgroundColor = "orange";
+});
+viewer_boton_products.addEventListener('mouseover', function(){
+    viewer_boton_products.style.backgroundColor = "rgb(255, 106, 0)";
+});
+viewer_boton_products.addEventListener('mouseout', function(){
+    viewer_boton_products.style.backgroundColor = "orange";
 });
