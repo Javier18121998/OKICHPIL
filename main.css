@@ -522,6 +522,7 @@ body{
     position: absolute;
     margin-top: 198%;
     width: 100%;
+    z-index: 1;
     height: 200%;
 }
 .background_image_products{
@@ -576,6 +577,8 @@ body{
     font-size: 2.56vh;
     font-family: 'Poppins', sans-serif;
     margin: 0;
+    letter-spacing: 0.29vh;
+    word-spacing: 0.12em;
 }
 .title_products_content{
     height: 8.2%;
@@ -687,7 +690,7 @@ body{
     grid-column-gap: 16px;
     grid-row-gap: 21px;
     position: absolute;
-    width: 87.5%;
+    width: 88.5%;
     height: 66.75%;
     top: 100%;
     margin-top: 2.25%;
@@ -715,6 +718,8 @@ body{
     font-family: 'Poppins', sans-serif;
     color: #ff9002;
     margin: 0;
+    letter-spacing: 0.29vh;
+    word-spacing: 0.12em;
 }
 .title_info_gallery{
     display: flex;
@@ -733,6 +738,7 @@ body{
     margin: 0;
     width: 100%;
     height: 50%;
+    letter-spacing: 0.25vh;
 }
 .showerdeslize_gallery{
     display: flex;
@@ -809,7 +815,146 @@ body{
     height: 100%;
     width: 100%;
 }
-#more_about, #footer{
+.testimones_from_Content{
+    position: absolute;
+    margin-top: 371.25%;
+    height: 100%;
+    width: 100%;
+}
+.background_img_testimones{
+    width: 100%;
+    height: 180%;
+    z-index: 0;
+}
+.background_img_testimones img{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.info_testimones_Container{
+    position: absolute;
+    top: 0;
+    margin-top: 12.5%;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+.subtitle_testimones_container{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    height: 5.25%;
+    margin-bottom: 1.195%;
+}
+.subtitle_testimones_container h5{
+    color: #ff9002;
+    font-size: 2.56vh;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    letter-spacing: 0.29vh;
+    word-spacing: 0.12em;
+}
+.title_testimones_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 8%;
+}
+.title_testimones_container h4{
+    font-size: 8.5vh;
+    font-family: 'Marcellus', serif;
+    color: #ffffff;
+    letter-spacing: 0.7vh;
+    word-spacing: 0.09vh;
+    margin: 0;
+}
+.showerdeslize_testimones_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2.25%;
+}
+.showerdeslize_testimones_container img{
+    height: 100%;
+    width: 8.82134915%;
+}
+.bould_testimones_container{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 76.75%;
+    margin-top: 2%;
+}
+.paragraph{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 40%;
+    margin: 0 0 0 10%;
+}
+.paragraph img{
+    align-self: flex-start;
+    justify-self: flex-start;
+    width: 17.9766119%;
+    height: 15.6440863%;
+}
+.paragraph p{
+    font-size: 3.85vh;
+    font-family: 'Marcellus', serif;
+    letter-spacing: 0.1vh;
+    word-spacing: 0.09vh;
+    color: #ffffff;
+    width: 95%;
+    height: 44.5758738%;
+    margin: 4.5% 0 1.5% 0;
+}
+.paragraph h4{
+    font-size: 4vh;
+    font-family: 'Marcellus', serif;
+    letter-spacing: 0.35vh;
+    word-spacing: 0.09vh;
+    width: 100%;
+    height: 5%;
+    color: #ff9002;
+    margin: 5.5% 0 1.5% 0;
+}
+.paragraph h5{
+    font-size: 3.5vh;
+    font-family: 'Marcellus', serif;
+    letter-spacing: 0.35vh;
+    word-spacing: 0.09vh;
+    width: 100%;
+    height: 5%;
+    color: #ffffff;
+    margin: 1.75% 0 1.5% 0;
+}
+.imgchef_container{
+    margin-left: 5%;
+    height: 100%;
+    width: 40%;
+}
+.imgchef_container img{
+    width: 96.58%;
+    height: 99.8%;
+}
+.carousel_testimones_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 10%;
+}
+.carousel_testimones_container p{
+    font-size: 20.5vh;
+    color: #ff9002;
+}
+.more_about{
+    position: absolute;
+    margin-top: 445.27%;
+}
+#footer{
     position: absolute;
     margin-top: 10000px;
 }
