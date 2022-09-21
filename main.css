@@ -157,8 +157,6 @@ body{
     margin-top: 4.45%;
 }
 .subtitle_container p{
-    color: #ff9002;
-    font-size: 2.56vh;
     font-family: 'Poppins', sans-serif;
 }
 .title_container{
@@ -169,9 +167,6 @@ body{
 .title_container p{
     align-self: center;
     justify-self: center;
-    color: #ffffff;
-    font-size: 13.4vh;
-    margin: 0;
     font-family: 'Marcellus', serif;
 }
 .view_more_products_container{
@@ -188,8 +183,6 @@ body{
     width: 17%;
 }
 .view_more_boton a{
-    color: #ffffff;
-    font-size: 2.549vh;
     letter-spacing: 0.22vh;
     text-decoration: none;
 }
@@ -964,7 +957,7 @@ body{
     height: 100%;
     width: 42.75%;
     margin-right: 8.5%;
-    box-shadow: 0 0 19px 2.5px #2f2f2f7e;
+    box-shadow: 4px 0 18px 2.85px #2c2c2c7e;
 }
 .background_self_conntact{
     display: flex;

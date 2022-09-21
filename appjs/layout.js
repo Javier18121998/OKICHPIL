@@ -1,3 +1,8 @@
+let i = 0;
+let loopTexting = 5;
+let loopControl = 6;
+const txt = 'BIENVENIDOS A NUESTRA WEB';
+const speed = 80;
 const logo_start = document.getElementById('logo-start');
 const facebookHover = document.getElementById('fb');
 const instagramHover = document.getElementById("ig");
@@ -8,13 +13,17 @@ const ours_page = document.getElementById('ours_page');
 const products_page = document.getElementById('products_page');
 const contacts_page = document.getElementById('contacts_page');
 const boton_build = document.getElementById('boton-build');
+const subtitle_start = document.getElementById('subtitle-start');
+const title_start = document.getElementById('title-start');
+const title_Start = document.getElementById('title_Start');
 const boton_build_text = document.getElementById('boton-build-text');
 const view_more_boton = document.getElementById('view-more-boton');
 const your_order_boton = document.getElementById('your-order-boton');
 const view_more_botoncontainer = document.getElementById('view-more-botoncontainer');
 const viewer_boton_products = document.getElementById('viewer-boton-products');
 const view_more_bottonn_gallery = document.getElementById('view-more-bottonn-gallery');
-const boton_about_toform =document.getElementById('boton-about-toform');
+const boton_about_toform = document.getElementById('boton-about-toform');
+const view_more_boton_text = document.getElementById('view-more-boton-text');
 const layoutsFixers = () =>{
     boton_build_text.style.fontWeight = "bold";
     start_page.style.fontWeight = "lighter";
@@ -32,6 +41,16 @@ const layoutsFixers = () =>{
     boton_build.style.backgroundColor = "rgba(167, 244, 25, 0.898)";
     boton_build_text.style.color = "#ffffff";
     boton_build_text.style.fontSize = "2.549vh";
+    subtitle_start.style.color = "#ff9002";
+    subtitle_start.style.fontSize = "2.56vh";
+    title_start.style.color = "#ffffff";
+    title_start.style.fontSize = "13.4vh";
+    title_start.style.margin = "0";
+    title_Start.style.color = "#ffffff";
+    title_Start.style.fontSize = "13.4vh";
+    title_Start.style.margin = "0";
+    view_more_boton_text.style.color = "#ffffff";
+    view_more_boton_text.style.fontSize = "2.549vh";
     logo_start.addEventListener('mouseover', () =>{
         logo_start.style.cursor = "pointer";
     });
@@ -126,5 +145,15 @@ const layoutsFixers = () =>{
     boton_about_toform.addEventListener('mouseout', () =>{
         boton_about_toform.style.backgroundColor = "orange";
     });
+    typeYoutersLoop();
+}
+const typeYoutersLoop = () =>{
+    do {
+        if(i < txt.length){
+            document.getElementById('subtitle-start').innerHTML += txt.charAt(i);
+            i++;
+            setTimeout(typeYoutersLoop, speed);
+        }
+    } while (loopControl>loopTexting);
 }
 window.onload = layoutsFixers();
