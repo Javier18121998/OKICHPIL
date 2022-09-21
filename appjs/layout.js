@@ -8,6 +8,7 @@ const ours_page = document.getElementById('ours_page');
 const products_page = document.getElementById('products_page');
 const contacts_page = document.getElementById('contacts_page');
 const boton_build = document.getElementById('boton-build');
+const boton_build_text = document.getElementById('boton-build-text');
 const view_more_boton = document.getElementById('view-more-boton');
 const your_order_boton = document.getElementById('your-order-boton');
 const view_more_botoncontainer = document.getElementById('view-more-botoncontainer');
@@ -15,6 +16,22 @@ const viewer_boton_products = document.getElementById('viewer-boton-products');
 const view_more_bottonn_gallery = document.getElementById('view-more-bottonn-gallery');
 const boton_about_toform =document.getElementById('boton-about-toform');
 const layoutsFixers = () =>{
+    boton_build_text.style.fontWeight = "bold";
+    start_page.style.fontWeight = "lighter";
+    ours_page.style.fontWeight = "lighter";
+    products_page.style.fontWeight = "lighter";
+    contacts_page.style.fontWeight = "lighter";
+    start_page.style.color ="#ffffff";
+    ours_page.style.color ="#ffffff";
+    products_page.style.color ="#ffffff";
+    contacts_page.style.color ="#ffffff";
+    start_page.style.fontSize = "2.145vh";
+    ours_page.style.fontSize = "2.145vh";
+    products_page.style.fontSize = "2.145vh";
+    contacts_page.style.fontSize = "2.145vh";
+    boton_build.style.backgroundColor = "rgba(167, 244, 25, 0.898)";
+    boton_build_text.style.color = "#ffffff";
+    boton_build_text.style.fontSize = "2.549vh";
     logo_start.addEventListener('mouseover', () =>{
         logo_start.style.cursor = "pointer";
     });
@@ -61,9 +78,11 @@ const layoutsFixers = () =>{
     boton_build.addEventListener('mouseover', () =>{
         boton_build.style.backgroundColor = "rgb(79, 184, 13)";
         boton_build.style.cursor = "pointer";
+        boton_build_text.style.fontWeight = "lighter";
     });
     boton_build.addEventListener('mouseout', () =>{
         boton_build.style.backgroundColor = "rgba(167, 244, 25, 0.898)";
+        boton_build_text.style.fontWeight = "bold";
     });
     view_more_boton.addEventListener('mouseover', () =>{
         view_more_boton.style.backgroundColor = "rgb(255, 106, 0)";

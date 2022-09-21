@@ -131,8 +131,6 @@ body{
     height: 80%;
 }
 .navigator nav h5{
-    color: #ffffff;
-    font-size: 2.145vh;
     font-family: 'Poppins', sans-serif;
     height: 60%;
 }
@@ -148,11 +146,8 @@ body{
     align-items: center;
     height: 52%;
     width: 100%;
-    background-color: rgba(167, 244, 25, 0.898);
 }
 .boton_build a{
-    color: #ffffff;
-    font-size: 2.549vh;
     letter-spacing: 0.22vh;
     text-decoration: none;
 }
