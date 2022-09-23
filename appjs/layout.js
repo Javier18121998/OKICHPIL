@@ -1,8 +1,3 @@
-let i = 0;
-let loopTexting = 5;
-let loopControl = 6;
-const txt = 'BIENVENIDOS A NUESTRA WEB';
-const speed = 80;
 const logo_start = document.getElementById('logo-start');
 const facebookHover = document.getElementById('fb');
 const instagramHover = document.getElementById("ig");
@@ -145,15 +140,5 @@ const layoutsFixers = () =>{
     boton_about_toform.addEventListener('mouseout', () =>{
         boton_about_toform.style.backgroundColor = "orange";
     });
-    typeYoutersLoop();
-}
-const typeYoutersLoop = () =>{
-    do {
-        if(i < txt.length){
-            document.getElementById('subtitle-start').innerHTML += txt.charAt(i);
-            i++;
-            setTimeout(typeYoutersLoop, speed);
-        }
-    } while (loopControl>loopTexting);
 }
 window.onload = layoutsFixers();
