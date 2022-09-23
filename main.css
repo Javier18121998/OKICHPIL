@@ -2,7 +2,17 @@ body{
     display: flex;
     flex-direction: column;
     width: 100%;
+    overflow-x: hidden;
     margin: 0;
+}
+body::-webkit-scrollbar{
+    width: 12.5px;
+    background: #593e1b;
+}
+body::-webkit-scrollbar-thumb{
+    background-color: #ff9002;
+    border-radius: 5px;
+    cursor: pointer;
 }
 .start_container{
     height: 100%;
