@@ -19,6 +19,11 @@ const viewer_boton_products = document.getElementById('viewer-boton-products');
 const view_more_bottonn_gallery = document.getElementById('view-more-bottonn-gallery');
 const boton_about_toform = document.getElementById('boton-about-toform');
 const view_more_boton_text = document.getElementById('view-more-boton-text');
+const name_input = document.getElementById('name-input');
+const mail_input = document.getElementById('mail-input');
+const soth_input = document.getElementById('soth-input');
+const mesaje_input = document.getElementById('mesaje-input');
+const arrayInputs = ["Nombre", "Correo", "Asunto", "Mensaje"];
 const layoutsFixers = () =>{
     boton_build_text.style.fontWeight = "bold";
     start_page.style.fontWeight = "lighter";
@@ -46,6 +51,10 @@ const layoutsFixers = () =>{
     title_Start.style.margin = "0";
     view_more_boton_text.style.color = "#ffffff";
     view_more_boton_text.style.fontSize = "2.549vh";
+    name_input.placeholder = arrayInputs[0];
+    mail_input.placeholder = arrayInputs[1];
+    soth_input.placeholder = arrayInputs[2];
+    mesaje_input.placeholder = arrayInputs[3];
     logo_start.addEventListener('mouseover', () =>{
         logo_start.style.cursor = "pointer";
     });
