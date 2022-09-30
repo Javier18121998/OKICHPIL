@@ -11,7 +11,7 @@ const resize_Elements = () =>{
     let to_resize = from_Plouck - 4;
     const size_Fonts = ["0vh"];
     const clop_Resize = () =>{
-        if (to_resize == 480) {
+        if (to_resize <= 480) {
             start.style.fontSize = size_Fonts[0];
             ours.style.fontSize = size_Fonts[0];
             products.style.fontSize = size_Fonts[0];
