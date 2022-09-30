@@ -13,7 +13,7 @@
     }
     .top_image_container{
         width: 100%;
-        height: 177%;
+        height: 75%;
     }
     .top_image_container img{
         width: 100%;
@@ -42,7 +42,28 @@
     }
     .hamburger_tock{
         height: 100%;
-        width: 7.35%;
+        width: 11.355%;
         margin: 0 0 0 5%;
-    }    
+    }
+    .divider_one_container{
+        border-top: 1.35px solid #cfcfcf57;
+        width: 100%;
+        height: 1%;
+        background-color: #00000028;
+    }
+    .nav_container,
+    .sotial_container,
+    .navigator,
+    .navigator nav,
+    .navigator nav h5,
+    .build_boton,
+    .boton_build,
+    .fb,.ig,.you,.sea{
+        height: 0%;
+        width: 0%;
+    }
+    .navigator nav h5,
+    .boton_build{
+        font-size: 0vh;
+    }
 }

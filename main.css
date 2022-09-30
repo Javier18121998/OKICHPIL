@@ -147,6 +147,9 @@ body::-webkit-tap-highlight{
 }
 .navigator nav h5{
     font-family: 'Poppins', sans-serif;
+    font-weight: lighter;
+    font-size: 2.145vh;
+    color: rgb(255, 255, 255);
     height: 60%;
 }
 .build_boton{
