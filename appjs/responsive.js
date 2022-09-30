@@ -1,8 +1,8 @@
-const from_Plouck = window.innerWidth;
 window.onload = function(){
     resize_Elements();
 }
 const resize_Elements = () =>{
+    const from_Plouck = window.innerWidth;
     const start = document.getElementById('start_page');
     const ours = document.getElementById('ours_page');
     const products = document.getElementById('products_page');
