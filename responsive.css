@@ -1,0 +1,48 @@
+@media(max-width: 480px){
+    body{
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        width: 100%;
+        height: 100%;
+    }
+    .start_container{
+        position: static;
+        width: 100%;
+        height: 100%;
+    }
+    .top_image_container{
+        width: 100%;
+        height: 177%;
+    }
+    .top_image_container img{
+        width: 100%;
+        height: 100%;
+    }
+    .header_top_container{
+        width: 100%;
+        height: 14.04824242%;
+    }
+    .call_phone_contact,
+    .call_phone_contact img,
+    .text_rowl_contact,
+    .text_rowl_contact h6,
+    .text_rowl_contact h5{
+        width: 0;
+        height: 0;
+    }
+    .text_rowl_contact h6,
+    .text_rowl_contact h5{
+        font-size: 0vh;
+    }
+    .logo_start{
+        height: 100%;
+        width: 16.08154%;
+        margin: 0 0 0 22.25%;
+    }
+    .hamburger_tock{
+        height: 100%;
+        width: 7.35%;
+        margin: 0 0 0 5%;
+    }    
+}

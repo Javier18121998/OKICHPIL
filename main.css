@@ -51,6 +51,7 @@ body::-webkit-tap-highlight{
     display: flex;
     flex-direction: row;
     width: 100%;
+    height: 9.04824242%;
     margin: 2.575% 0 1.686% 0;
 }
 .call_phone_contact{

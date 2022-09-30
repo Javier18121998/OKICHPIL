@@ -23,38 +23,56 @@ const name_input = document.getElementById('name-input');
 const mail_input = document.getElementById('mail-input');
 const soth_input = document.getElementById('soth-input');
 const mesaje_input = document.getElementById('mesaje-input');
-const arrayInputs = ["Nombre", "Correo", "Asunto", "Mensaje"];
+const principalHadder = () =>{
+    let arrayInputs = ["Nombre", "Correo", "Asunto", "Mensaje"];    
+    styles();
+    layoutsFixers();
+    const fromPlaceHolders = () =>{
+        name_input.placeholder = arrayInputs[0];
+        mail_input.placeholder = arrayInputs[1];
+        soth_input.placeholder = arrayInputs[2];
+        mesaje_input.placeholder = arrayInputs[3];
+    }
+    fromPlaceHolders();
+}
+const styles = () =>{
+    let colors = ["#ffffff", "rgba(167, 244, 25, 0.898)", "#ff9002" ]
+    let fontsFromSize = ["2.145vh", "2.549vh", "2.56vh", "13.4vh"]
+    let fontsFromWeight = ["lighter", "bold"]
+    let marginsFrom = ["0"]
+    const controlersStyles = ["title_start", "title_Start"]
+    const improve = () =>{
+        title_start.style.color = colors[0];
+        title_start.style.fontSize = fontsFromSize[3];
+        title_start.style.margin = marginsFrom[0];
+        title_Start.style.color = colors[0];
+        title_Start.style.fontSize = fontsFromSize[3];
+        title_Start.style.margin = marginsFrom[0];
+        console.log(controlersStyles[0]);
+    }
+    boton_build_text.style.fontWeight = fontsFromWeight[1];
+    start_page.style.fontWeight = fontsFromWeight[0];
+    ours_page.style.fontWeight = fontsFromWeight[0];
+    products_page.style.fontWeight = fontsFromWeight[0];
+    contacts_page.style.fontWeight = fontsFromWeight[0];
+    start_page.style.color = colors[0];
+    ours_page.style.color = colors[0];
+    products_page.style.color = colors[0];
+    contacts_page.style.color = colors[0];
+    start_page.style.fontSize = fontsFromSize[0];
+    ours_page.style.fontSize = fontsFromSize[0];
+    products_page.style.fontSize = fontsFromSize[0];
+    contacts_page.style.fontSize = fontsFromSize[0];
+    boton_build.style.backgroundColor = colors[1];
+    boton_build_text.style.color = colors[0];
+    boton_build_text.style.fontSize = fontsFromSize[1];
+    subtitle_start.style.color = colors[2];
+    subtitle_start.style.fontSize = fontsFromSize[2];
+    view_more_boton_text.style.color = colors[0];
+    view_more_boton_text.style.fontSize = fontsFromSize[1];
+    improve();
+}
 const layoutsFixers = () =>{
-    boton_build_text.style.fontWeight = "bold";
-    start_page.style.fontWeight = "lighter";
-    ours_page.style.fontWeight = "lighter";
-    products_page.style.fontWeight = "lighter";
-    contacts_page.style.fontWeight = "lighter";
-    start_page.style.color ="#ffffff";
-    ours_page.style.color ="#ffffff";
-    products_page.style.color ="#ffffff";
-    contacts_page.style.color ="#ffffff";
-    start_page.style.fontSize = "2.145vh";
-    ours_page.style.fontSize = "2.145vh";
-    products_page.style.fontSize = "2.145vh";
-    contacts_page.style.fontSize = "2.145vh";
-    boton_build.style.backgroundColor = "rgba(167, 244, 25, 0.898)";
-    boton_build_text.style.color = "#ffffff";
-    boton_build_text.style.fontSize = "2.549vh";
-    subtitle_start.style.color = "#ff9002";
-    subtitle_start.style.fontSize = "2.56vh";
-    title_start.style.color = "#ffffff";
-    title_start.style.fontSize = "13.4vh";
-    title_start.style.margin = "0";
-    title_Start.style.color = "#ffffff";
-    title_Start.style.fontSize = "13.4vh";
-    title_Start.style.margin = "0";
-    view_more_boton_text.style.color = "#ffffff";
-    view_more_boton_text.style.fontSize = "2.549vh";
-    name_input.placeholder = arrayInputs[0];
-    mail_input.placeholder = arrayInputs[1];
-    soth_input.placeholder = arrayInputs[2];
-    mesaje_input.placeholder = arrayInputs[3];
     logo_start.addEventListener('mouseover', () =>{
         logo_start.style.cursor = "pointer";
     });
@@ -150,4 +168,4 @@ const layoutsFixers = () =>{
         boton_about_toform.style.backgroundColor = "orange";
     });
 }
-window.onload = layoutsFixers();
+window.onload = principalHadder();
