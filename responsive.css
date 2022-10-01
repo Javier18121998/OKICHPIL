@@ -38,7 +38,7 @@
         font-size: 0vh;
     }
     .logo_start{
-        height: 85%;
+        height: 80%;
         width: 16.08154%;
         margin: 0 0 0 22.25%;
     }
@@ -47,7 +47,7 @@
         flex-direction: column;
         justify-content: space-evenly;
         align-items: center;
-        height: 85%;
+        height: 80%;
         width: 13.5%;
         margin: 0 0 0 20.5%;
         border-radius: 17.5%;
@@ -68,15 +68,15 @@
     }
     .bar_tock1{
         border: 1.5px solid #e1e1e1e9;
-        width: 70%;
+        width: 60%;
     }
     .bar_tock2{
         border: 1.5px solid #e1e1e1e9;
-        width: 70%;
+        width: 60%;
     }
     .bar_tock3{
         border: 1.5px solid #e1e1e1e9;
-        width: 70%;
+        width: 60%;
     }
     .activetock1{
         border: 1.5px solid #e1e1e1e9;
@@ -168,7 +168,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 25%;
+        width: 30%;
         height: 250%;
         background-color: orange;
     }

@@ -35,7 +35,7 @@ const subtitleResp = () =>{
     const to_resizesubt = from_subtitle - 4;
     const forSubtitle = () =>{
         if (to_resizesubt <= 480) {
-            subtitleResp.style.fontSize = "3.21vh";   
+            subtitleResp.style.fontSize = "3.1vh";   
         }
     }
     forSubtitle(); 
@@ -59,7 +59,7 @@ const botonViewProducts = () =>{
     const viewMoreText = from_viewmoretext - 4;
     const forMoreText = () =>{
         if (viewMoreText <= 480) {
-            botonViewMoreText.style.fontSize = "1.1vh";
+            botonViewMoreText.style.fontSize = "1.51vh";
         }
     }
     forMoreText();
