@@ -8,6 +8,7 @@ const Resp = function(){
     botonViewProducts();
     infoCerts();
     scriptHamburger();
+    ptrCont();
 }
 const navResp = () =>{
     let from_Plouck = window.innerWidth;
@@ -80,6 +81,23 @@ const infoCerts = () =>{
         }
     }
     modifyFox();
+}
+const ptrCont = () =>{
+    let fromFox = window.innerWidth;
+    const foxOne = document.getElementById('fox-one');
+    const foxTwo = document.getElementById('fox-two');
+    const foxThree = document.getElementById('fox-three');
+    const foxLast = document.getElementById('fox-last');
+    const foxFrom = fromFox - 4;
+    const pttrCont = () =>{
+        if (foxFrom <= 480) {
+            foxOne.style.fontSize = "1vh";
+            foxTwo.style.fontSize = "1vh";
+            foxThree.style.fontSize = "1vh";
+            foxLast.style.fontSize = "1vh";
+        }
+    }
+    pttrCont();
 }
 const scriptHamburger = () =>{
     const macdonalds = document.getElementById('hamburger-tock');
