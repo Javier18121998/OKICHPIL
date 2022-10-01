@@ -35,7 +35,7 @@ const subtitleResp = () =>{
     const to_resizesubt = from_subtitle - 4;
     const forSubtitle = () =>{
         if (to_resizesubt <= 480) {
-            subtitleResp.style.fontSize = "4.21vh";   
+            subtitleResp.style.fontSize = "3.21vh";   
         }
     }
     forSubtitle(); 
@@ -47,8 +47,8 @@ const titleResp = () =>{
     const to_resizetitle = from_title -4;
     const forTitle = () =>{
         if (to_resizetitle <= 480) {
-            titleOne.style.fontSize = "6.5vh";
-            titleTwo.style.fontSize = "6.5vh";        
+            titleOne.style.fontSize = "4.1vh";
+            titleTwo.style.fontSize = "4.1vh";        
         }
     }
     forTitle();
