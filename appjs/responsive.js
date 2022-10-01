@@ -47,8 +47,8 @@ const titleResp = () =>{
     const to_resizetitle = from_title -4;
     const forTitle = () =>{
         if (to_resizetitle <= 480) {
-            titleOne.style.fontSize = "4.1vh";
-            titleTwo.style.fontSize = "4.1vh";        
+            titleOne.style.fontSize = "4.5vh";
+            titleTwo.style.fontSize = "4.5vh";        
         }
     }
     forTitle();
