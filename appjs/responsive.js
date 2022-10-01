@@ -59,7 +59,7 @@ const botonViewProducts = () =>{
     const viewMoreText = from_viewmoretext - 4;
     const forMoreText = () =>{
         if (viewMoreText <= 480) {
-            botonViewMoreText.style.fontSize = "2.5vh";
+            botonViewMoreText.style.fontSize = "1.1vh";
         }
     }
     forMoreText();
