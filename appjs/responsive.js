@@ -91,10 +91,10 @@ const ptrCont = () =>{
     const foxFrom = fromFox - 4;
     const pttrCont = () =>{
         if (foxFrom <= 480) {
-            foxOne.style.fontSize = "0.85vh";
-            foxTwo.style.fontSize = "0.85vh";
-            foxThree.style.fontSize = "0.85vh";
-            foxLast.style.fontSize = "0.85vh";
+            foxOne.style.fontSize = "0.65vh";
+            foxTwo.style.fontSize = "0.65vh";
+            foxThree.style.fontSize = "0.65vh";
+            foxLast.style.fontSize = "0.65vh";
         }
     }
     pttrCont();
