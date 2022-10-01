@@ -112,7 +112,7 @@ const scriptHamburger = () =>{
     const navActive = document.getElementById('nav-Active');
     const navigator = document.getElementsByClassName('navigator');
     let control = false;
-    const controlSizeFonts = ["5vh", "0vh"];
+    const controlSizeFonts = ["2vh", "0vh"];
     macdonalds.addEventListener('click', () =>{
         control = true;
         if (control === true) {
@@ -121,13 +121,13 @@ const scriptHamburger = () =>{
             }
             toNavPagSotial();
             control = false;
+            console.log("hola wey");
         }
         addingClasstoNavigator();
         start.style.fontSize = controlSizeFonts[0];
         ours.style.fontSize = controlSizeFonts[0];
         products.style.fontSize = controlSizeFonts[0];
         contacts.style.fontSize = controlSizeFonts[0];
-        console.log(control, "hola")
     });
     const modifyHamburger = () =>{
         macdonalds.classList.add("hamburger_tockActive");
