@@ -295,6 +295,45 @@
         align-items: center; 
         width: 30%;
     }
+    .footClopResp{
+        position: fixed;
+        bottom: 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        height: 10%;
+        width: 100%;
+        background-color: #ecb81b8c;
+        z-index: 9;
+    }
+    .toBoughtBoton{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 45%;
+        height: 85%;
+        background-color: rgb(167, 244, 25, 0.898);
+    }
+    .toBoughtBoton a{
+        color: #ffffff;
+        font-size: 4.25vh;
+        text-decoration: none;
+    }
+    .toCallAndSotialMedia{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 40%;
+        height: 100%;
+        border-radius: 50%;
+        background-color: #ffffff00;
+        z-index: 10;
+    }
+    .toCallAndSotialMedia img{
+        width: 80%;
+        height: 100%;
+    }
     .about_Container{
         margin-top: 200%;
     } 
