@@ -91,10 +91,10 @@ const ptrCont = () =>{
     const foxFrom = fromFox - 4;
     const pttrCont = () =>{
         if (foxFrom <= 480) {
-            foxOne.style.fontSize = "0.65vh";
-            foxTwo.style.fontSize = "0.65vh";
-            foxThree.style.fontSize = "0.65vh";
-            foxLast.style.fontSize = "0.65vh";
+            foxOne.style.fontSize = "0.80vh";
+            foxTwo.style.fontSize = "0.80vh";
+            foxThree.style.fontSize = "0.80vh";
+            foxLast.style.fontSize = "0.80vh";
         }
     }
     pttrCont();
@@ -121,7 +121,6 @@ const scriptHamburger = () =>{
             }
             toNavPagSotial();
             control = false;
-            console.log("hola wey");
         }
         addingClasstoNavigator();
         start.style.fontSize = controlSizeFonts[0];
@@ -129,17 +128,35 @@ const scriptHamburger = () =>{
         products.style.fontSize = controlSizeFonts[0];
         contacts.style.fontSize = controlSizeFonts[0];
     });
+    macdonalds.addEventListener('onClick', () =>{
+        function toOutNow(){
+            retrie();
+            start.style.fontSize = controlSizeFonts[1];
+            ours.style.fontSize = controlSizeFonts[1];
+            products.style.fontSize = controlSizeFonts[1];
+            contacts.style.fontSize = controlSizeFonts[1];
+        }
+        toOutNow();
+    });
+    function retrie(){
+        navigatorfoth.classList.remove("navigatorActive");
+        navigatorfoth.classList.add("navigator");
+        navActive.classList.add('cloptt');
+        navActive.classList.remove('navActive');
+        start.classList.add("clopt1");
+        start.classList.remove("navText");
+        ours.classList.add("clopt2");
+        ours.classList.remove("navText");
+        products.classList.add("clopt3");
+        products.classList.remove("navText");
+        contacts.classList.add("clopt4");
+        contacts.classList.remove("navText");
+    }
     const modifyHamburger = () =>{
         macdonalds.classList.add("hamburger_tockActive");
         tockOne.classList.add("activetock1");
         tockTwo.classList.add("activetock2");
         tockThree.classList.add("activetock3");
-    }
-    const removeModifyHamburger = () =>{
-        macdonalds.classList.remove("hamburger_tockActive");
-        tockOne.classList.remove("activetock1");
-        tockTwo.classList.remove("activetock2");
-        tockThree.classList.remove("activetock3");
     }
     const addingClasstoNavigator = () =>{
         navigatorfoth.classList.remove("navigator");
