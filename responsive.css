@@ -301,7 +301,7 @@
         width: 30%;
     } 
     .about_Container{
-        margin-top: 90%;
+        top: 15%;
         z-index: 0;
     } 
     .about_history_Container{
