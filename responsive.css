@@ -482,7 +482,7 @@
     }
     .for_us_content{
         position: absolute;
-        top: 153.25%;
+        top: 151%;
         width: 100%;
         height: 130%;
     }
@@ -558,7 +558,7 @@
         box-shadow: 0 0 5px 4px #00000060;
     }
     .context_info_container p{
-        font-size: 2.1vh;
+        font-size: 1.86vh;
         color: #ffffff;
         margin: 0.5% 0 0.5% 0;
         font-family: 'Poppins', sans-serif;
@@ -590,10 +590,10 @@
         text-decoration: none;
     }
     .products_and_gallery_container{
-        margin-top: 543.5%;
+        position: absolute;
+        top: 219.5%;
         width: 100%;
         height: 250%;
-        border-radius: 3% 3% 0 0;
         background-color: #eb8b1e3c;
     }
     .background_image_products{
@@ -614,7 +614,6 @@
         position: absolute;
         top: 3.5%;
         background-color: #ffffff;
-        border-radius: 3.5% 3.5% 0 0;
     }
     .gallery_Container_content_from {
         display: flex;
@@ -673,11 +672,11 @@
         flex-direction: column;
         justify-content: space-evenly;
         border: 1px solid rgba(226, 150, 43, 0.457);
-        border-radius: 2%;
         height: 100%;
         width: 95%;
         margin: 0 0 0 0;
         align-self: center;
+        background-color: #ff90357a;
     } 
     .food_top_recites_one {
         display: flex;
@@ -692,6 +691,16 @@
         height: 30.2%;
         width: 100%;
     }
+    .food_top_recites_one  div h5{
+        margin-top: 0.5%;
+        margin-bottom: 0;
+    }
+    .food_top_recites_one  div p{
+        color: #808080;
+        font-family: 'Poppins', sans-serif;
+        font-size: 2.15vh;
+        letter-spacing: 0.03vh;
+    }
     .food_top_recites_two {
         display: flex;
         flex-direction: column;
@@ -704,6 +713,29 @@
     .food_top_recites_two  div{
         height: 30.2%;
         width: 100%;    
+    }
+    .food_top_recites_two  div h5{
+        margin-top: 0.5%;
+        margin-bottom: 0;
+    }
+    .food_top_recites_two  div p{
+        color: #808080;
+        font-family: 'Poppins', sans-serif;
+        font-size: 2.15vh;
+        letter-spacing: 0.03vh;
+    }
+    .view_more_products {
+        height: 7%;
+        background-color: rgba(255, 255, 255, 0.446);
+        width: 90%;
+        align-self: center;
+    }
+    .viewer_boton_products {
+        align-self: center;
+        justify-self: center;
+        width: 55.6871757%;
+        height: 37.5%;
+        background-color: #ff9002;
     }
     .testimones_from_Content{
         margin-top: 1500%;
