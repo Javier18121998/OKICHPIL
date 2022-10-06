@@ -6,7 +6,7 @@
         width: 100%;
         height: 100%;
         overflow-x: hidden;
-        background-color: #1e0d02;
+        background-color: #140901;
     }
     .start_container{
         position: static;
@@ -782,19 +782,22 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 100%;                
+        width: 100%;    
+        background-color: #341805;            
     }
     .fourth_gallery_container{
         display: flex;
         justify-content: center;
         align-items: center;
         width: 100%;                
+        background-color: #341805;            
     }
     .fiveth_gallery_container{
         display: flex;
         justify-content: center;
         align-items: center;
         width: 100%;                
+        background-color: #341805;            
     }
     .first_gallery_container img{
         width: 100%;
@@ -812,12 +815,12 @@
         width: 90%;
     }
     .testimones_from_Content{
-        margin-top: 1950%;
+        margin-top: 1850%;
     }
     .more_about{
-        margin-top: 1900%;
+        margin-top: 2300%;
     }
     .footer_container{
-        margin-top: 2100%;
+        margin-top: 2500%;
     }
 }
