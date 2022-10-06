@@ -656,17 +656,54 @@
         font-size: 3vh;
         margin: 0;
     }
+    .showerdeslize_products_content {
+        height: 5%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 2% 0 2% 0;
+    }
+    .showerdeslize_products_content img{
+        width: 12.9%;
+        height: 87.5%;
+    }
     .top_recipes_container {
         display: flex;
         flex-direction: column;
-        height: 65%;
-        width: 100%;
+        justify-content: space-evenly;
+        border: 1px solid rgba(226, 150, 43, 0.457);
+        border-radius: 2%;
+        height: 100%;
+        width: 95%;
         margin: 0 0 0 0;
+        align-self: center;
     } 
     .food_top_recites_one {
-        width: 23.75%;
-        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 90%;
+        height: 45%;
         margin: 0 0 0 0;
+        align-self: center;
+    }
+    .food_top_recites_one  div{
+        height: 30.2%;
+        width: 100%;
+    }
+    .food_top_recites_two {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 90%;
+        height: 50%;
+        margin: 0 0 0 0;
+        align-self: center;
+    }
+    .food_top_recites_two  div{
+        height: 30.2%;
+        width: 100%;    
     }
     .testimones_from_Content{
         margin-top: 1500%;
