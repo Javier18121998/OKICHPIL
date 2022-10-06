@@ -112,7 +112,7 @@ const scriptHamburger = () =>{
     const navActive = document.getElementById('nav-Active');
     const navigator = document.getElementsByClassName('navigator');
     let control = false;
-    const controlSizeFonts = ["2vh", "0vh"];
+    const controlSizeFonts = ["2.22vh", "0vh"];
     macdonalds.addEventListener('click', () =>{
         control = true;
         if (control === true) {
