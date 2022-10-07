@@ -826,13 +826,13 @@
         justify-content: center;
         align-content: center;
         width: 100%;
-        height: 60%;
+        height: 55%;
         z-index: 0;
         border-radius: 3%;
         background-color: rgba(9, 3, 0, 0.73);
     }
     .background_img_testimones img{
-        width: 90%;
+        width: 100%;
         height: 100%;
     }
     .info_testimones_Container {
@@ -840,10 +840,13 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+        justify-content: space-between;
+        background-color: #c963034c;
         top: 0;
         margin: 10% 0 0 2.5%;
+        border-radius: 1%;
         width: 95%;
-        height: 70%;
+        height: 100%;
         z-index: 1;
     }
     .subtitle_testimones_container {
@@ -851,7 +854,7 @@
         justify-content: center;
         align-items: stretch;
         width: 90%;
-        height: 4%;
+        height: 2.5%;
         margin-bottom: 1.195%;
     }
     .subtitle_testimones_container h5 {
@@ -867,7 +870,7 @@
         justify-content: center;
         align-items: center;
         width: 90%;
-        height: 8%;
+        height: 6%;
     }    
     .title_testimones_container h4 {
         font-size: 2.2vh;
@@ -883,23 +886,40 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-top: 1%;
-        height: 7%;
+        margin-top: 0%;
+        height: 3%;
         width: 100%;
+    }
+    .showerdeslize_testimones_container img {
+        height: 100%;
+        width: 16.82134915%;
     }
     .bould_testimones_container {
         display: flex;
-        flex-direction: column;
+        flex-direction: column-reverse;
+        justify-content: space-between;
         width: 90%;
         height: 76.75%;
-        margin-top: 2%;
+        margin-top: 6.25%;
     }
     .paragraph {
         display: flex;
-        flex-direction: column-reverse;
-        height: 100%;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        height: 50%;
         width: 95%;
         margin: 0 0 0 2.5%;
+        border-radius: 2.5%;
+        border: 0.85px solid #ff5b02ad;
+        background-color: #ffffff42;
+        box-shadow: 0 2px 5px 7px rgba(0, 0, 0, 0.401);
+    }
+    .paragraph img {
+        align-self: center;
+        justify-self: center;
+        width: 17.9766119%;
+        height: 15.6440863%;
     }
     .paragraph p {
         font-size: 2vh;
@@ -910,6 +930,53 @@
         width: 95%;
         height: 44.5758738%;
         margin: 4.5% 0 1.5% 0;
+    }
+    .paragraph h4 {
+        font-size: 2.2vh;
+        font-family: 'Marcellus', serif;
+        letter-spacing: 0.35vh;
+        word-spacing: 0.09vh;
+        width: 40%;
+        height: 5%;
+        color: #ff9002;
+        margin: 5.5% 0 1.5% 0;
+    }
+    .paragraph h5 {
+        font-size: 2.1vh;
+        font-family: 'Marcellus', serif;
+        letter-spacing: 0.35vh;
+        word-spacing: 0.09vh;
+        width: 30%;
+        height: 5%;
+        color: #ffffff;
+        margin: 1.75% 0 1.5% 0;
+    }
+    .imgchef_container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 50%;
+        width: 95%; 
+        margin-left: 2.5%;
+        margin-bottom: 6%;
+    }
+    .imgchef_container img{
+        width: 100%;
+    }
+    .carousel_testimones_container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 5%;
+    }    
+    .carousel_testimones_container p {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 7.85vh;
+        height: 100%;
+        color: #ff9002;
     }
     .more_about{
         margin-top: 2300%;
