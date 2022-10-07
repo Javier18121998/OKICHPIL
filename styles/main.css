@@ -107,13 +107,7 @@ body::-webkit-tap-highlight{ color: none; }
     margin: 6.75% 0 0 0;    
     background-color: rgba(0, 0, 0, 0.111);
 }
-.info_certs_first{
-    display: flex;
-    align-items: center;
-    margin-left: 17%;
-    width: 20%;
-    height: 69.5%;
-}
+.info_certs_first{ display: flex; align-items: center; margin-left: 17%; width: 20%; height: 69.5%; }
 .info_certs_first img{ height: 25%; width: 11.5%; }
 .info_certs_second{ display: flex; align-items: center; width: 20%; height: 69.5%; }
 .info_certs_second img{ height: 29%; width: 9.25%; }
