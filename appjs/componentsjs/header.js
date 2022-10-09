@@ -1,116 +1,139 @@
 /*Creating the header*/
-const topHeader = document.createElement('div');
-const callContact = document.createElement('div');
-const textRowlContact = document.createElement('div');
-const logoTop = document.createElement('div');
-const hamburgerTock = document.createElement('div');
-const tockOne = document.createElement('div');
-const tockTwo = document.createElement('div');
-const tockThree = document.createElement('div');
-const dividerTop = document.createElement('div');
-const logo = document.createElement('img');
-const phoneimage = document.createElement('img');
-const toolOne = document.createElement('h6');
-const toolTwo = document.createElement('h5');
-const helfOne = document.createElement('h5');
-const helfTwo = document.createElement('h5');
-const helfThree = document.createElement('h5');
-const helfFour = document.createElement('h5');
-const header = () =>{
-    if (window.onload) {
-       creatingHeader(); 
-    }
+
+window.onload = function(){
     header();
 }
-const creatingHeader = () =>{
-    toolsHeader();
-}
-const toolsHeader =() =>{
-    const resources = ["Línea directa", "+01 (234) 5678 90", "Inicio", "Nosotros", "Productos", "Contacto", "Haz tu pedido"]; 
-    topHeader.classList.add('topHeader');
-    callContact.classList.add('callContact');
-    logoTop.classList.add('logoTop');
-    hamburgerTock.classList.add('hamburger_tock');
-    tockOne.classList.add('TockOne');
-    tockTwo.classList.add('TockTwo');
-    tockThree.classList.add('TockThree');
-    textRowlContact.classList.add('textRowlContact');
-    logo.src = "headerPics/logo.png";
-    phoneimage.src = "headerPics/callboton.png";
-    toolOne.textContent += resources[0];
-    toolTwo.textContent += resources[1];
-    helfOne.textContent += resources[2]; 
-    helfTwo.textContent += resources[3];
-    helfThree.textContent += resources[4];     
-    helfFour.textContent += resources[5];
-    buildBoton.textContent += resources[6];
-    dividerTop.classList.add('dividerHead'); 
-    const contNodeTopSelf = () =>{
-        textRowlContact.appendChild(toolOne);
-        textRowlContact.appendChild(toolTwo);
-        callContact.appendChild(phoneimage);
-        callContact.appendChild(textRowlContact);
-        logoTop.appendChild(logo);
-        hamburgerTock.appendChild(tockOne);
-        hamburgerTock.appendChild(tockTwo);
-        hamburgerTock.appendChild(tockThree);
-        topHeader.appendChild(callContact);
-        topHeader.appendChild(logoTop);
+const header = () =>{
+    /*Typing and remodel Top Header*/
+    let topHeader = document.createElement("div");
+    let contact = document.createElement("div");
+    let phonePic = document.createElement("img");
+    let textRowlContact = document.createElement("div");
+    let textOne = document.createElement("h6");
+    let textTwo = document.createElement("h5");
+    let logo = document.createElement("div");
+    let logoPic = document.createElement("img");
+    let hamburgerTock = document.createElement("div");
+    let TockOne = document.createElement("div");
+    let TockTwo = document.createElement("div");
+    let TockThree = document.createElement("div");
+    /*This divider*/
+    let divider = document.createElement("div");
+    /*This navigator*/
+    let navContainer = document.createElement("div");
+    let sotialContainer = document.createElement("div");
+    let facebk = document.createElement("img");
+    let instagm = document.createElement("img");
+    let youtb = document.createElement("img");
+    let serch = document.createElement("img");
+    let navigator = document.createElement("div");
+    let nav = document.createElement("nav");
+    let toolOne = document.createElement("h5");
+    let toolTwo = document.createElement("h5");
+    let toolThree = document.createElement("h5");
+    let toolFourht = document.createElement("h5");
+    let builBoton = document.createElement("div");
+    let boton = document.createElement("div");
+    let botonText = document.createElement("a");
+    const creatingTopHeder = () =>{
+        const fromTopHeader = ["Línea directa", "+01 (234) 5678 90"];
+        textOne.textContent = fromTopHeader[0];
+        textTwo.textContent = fromTopHeader[1];
+        logoPic.src = "../headerPics/logo.png";
+        phonePic.src = "../headerPics/callboton.png";
+        logo.appendChild(logoPic);
+        textRowlContact.appendChild(textOne); 
+        textRowlContact.appendChild(textTwo);
+        contact.appendChild(phonePic);
+        contact.appendChild(textRowlContact);
+        hamburgerTock.appendChild(TockOne);
+        hamburgerTock.appendChild(TockTwo);
+        hamburgerTock.appendChild(TockThree);
+        topHeader.appendChild(contact);
+        topHeader.appendChild(logo);
         topHeader.appendChild(hamburgerTock);
     }
-    const contNodeSubTopSelf = () =>{
-        const navContainer = document.createElement('div');
-        const sotialContainer = document.createElement('div');
-        const facebk = document.createElement('img');
-        const instag = document.createElement('img');
-        const youtb = document.createElement('img');
-        const search = document.createElement('img');
-        const navigator = document.createElement('div');
-        const navTo = document.createElement('nav');
-        const buildBotonTo = document.createElement('div');
-        const botonTo = document.createElement('div');
-        const buildText = document.createElement('a');
-        navTo.appendChild(helfOne);
-        navTo.appendChild(helfTwo);
-        navTo.appendChild(helfThree);
-        navTo.appendChild(helfFour);
-        navigator.appendChild(navTo);
-        navTo.classList.add('cloptt');
-        navigator.classList.add('navigator');
-        botonTo.appendChild(buildText);
-        buildBotonTo.appendChild(botonTo);
+    const addingTopHeaderClass = () =>{
+        topHeader.classList.add("headerTopContainer");
+        contact.classList.add("callPhoneContact");
+        textRowlContact.classList.add("textRowlContact");
+        logo.classList.add("logoHeader");
+        logoPic.setAttribute("id", "logo-start");
+        hamburgerTock.classList.add("hamburger_tock");
+        hamburgerTock.setAttribute("id", "hamburger-tock");
+        TockOne.classList.add("bar_tock1");
+        TockOne.setAttribute("id", "bar-tock1");
+        TockTwo.classList.add("bar_tock2");
+        TockTwo.setAttribute("id", "bar-tock2");
+        TockThree.classList.add("bar_tock3");
+        TockThree.setAttribute("id", "bar-tock3");
+        divider.classList.add("divider_one_container");
+    }
+    const creatingNavigator = () =>{
+        const pages = ["Inicio", "Nosotros", "Productos", "Contacto", "Haz tu pedido"];
+        facebk.src = "../headerPics/facebook.png";
+        instagm.src = "../headerPics/instagram.png"
+        youtb.src = "../headerPics/youtube.png";
+        serch.src = "../headerPics/search.png";
         sotialContainer.appendChild(facebk);
-        sotialContainer.appendChild(instag);
+        sotialContainer.appendChild(instagm);
         sotialContainer.appendChild(youtb);
-        sotialContainer.appendChild(search);
-        facebk.src = "headerPics/facebook.png";
-        instag.src = "headerPics/instagram.png";
-        youtb.src = "headerPics/youtube.png";
-        search.src = "headerPics/search.png";
-        navTo.appendChild(helfOne);
-        navTo.appendChild(helfTwo);
-        navTo.appendChild(helfThree);
-        navTo.appendChild(helfFour);
+        sotialContainer.appendChild(serch);
+        toolOne.textContent = pages[0];
+        toolTwo.textContent = pages[1];
+        toolThree.textContent = pages[2];
+        toolFourht.textContent = pages[3];
+        nav.appendChild(toolOne);
+        nav.appendChild(toolTwo);
+        nav.appendChild(toolThree);
+        nav.appendChild(toolFourht);
+        navigator.appendChild(nav);
+        botonText.textContent = pages[4];
+        boton.appendChild(botonText);
+        builBoton.appendChild(boton);
         navContainer.appendChild(sotialContainer);
         navContainer.appendChild(navigator);
-        navContainer.appendChild(buildBotonTo);
+        navContainer.appendChild(builBoton);
     }
-    function createForContext(){
-        const contextTo = document.createElement('div');
-        const titleTo = document.createElement('p');
-        titleTo.textContent += "Nosotros";
-        contextTo.appendChild(titleTo);
-    }     
-    const buildOnTo = () =>{
-        let headerFrom = document.getElementById('header');
-        headerFrom.appendChild(topHeader);
-        headerFrom.appendChild(dividerTop);
-        headerFrom.appendChild(navContainer);
-        document.body.appendChild(headerFrom);
-        document.body.appendChild(topHeader);
-    }     
-    contNodeTopSelf();
-    contNodeSubTopSelf();
-    createForContext();
-    buildOnTo();
+    const addingNavigatorClass = () =>{
+        botonText.setAttribute("id", "boton-build-text");
+        boton.classList.add("boton_build");
+        boton.setAttribute("id", "boton-build");
+        builBoton.classList.add("build_boton");
+        nav.classList.add("cloptt");
+        nav.setAttribute("id", "nav-Active");
+        navigator.classList.add("navigator");
+        navigator.setAttribute("id", "navigator-foth");
+        toolOne.classList.add("clopt1");
+        toolOne.setAttribute("id", "start_page");
+        toolTwo.classList.add("clopt2");
+        toolTwo.setAttribute("id", "ours_page");
+        toolThree.classList.add("clopt3");
+        toolThree.setAttribute("id", "products_page");
+        toolFourht.classList.add("clopt4");
+        toolFourht.setAttribute("id", "contacts_page");
+        sotialContainer.classList.add("sotial_container");
+        facebk.setAttribute("id", "fb");
+        facebk.classList.add("fb");
+        instagm.setAttribute("id", "ig");
+        instagm.classList.add("ig");
+        youtb.setAttribute("id", "you");
+        youtb.classList.add("you");
+        facebk.setAttribute("id", "fb");
+        facebk.classList.add("fb");
+        serch.setAttribute("id", "sea");
+        serch.classList.add("sea");
+        navContainer.classList.add("nav_container");
+    }    
+    const addingToHeader = () =>{
+        const header =document.getElementById('header');
+        creatingTopHeder();
+        addingTopHeaderClass();
+        creatingNavigator();
+        addingNavigatorClass();
+        header.appendChild(topHeader);
+        header.appendChild(divider);
+        header.appendChild(navContainer);
+    }
+    addingToHeader();
 }
