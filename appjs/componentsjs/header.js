@@ -1,5 +1,10 @@
 /*Creating the header*/
 const header = () =>{
+    /*This background */
+    let backGroundImage = document.createElement("div");
+    let imageBackground = document.createElement("img");
+    /*This Container */
+    let startContainer = document.createElement("div");
     /*Typing and remodel Top-Header*/
     let topHeader = document.createElement("div");
     let contact = document.createElement("div");
@@ -31,6 +36,11 @@ const header = () =>{
     let builBoton = document.createElement("div");
     let boton = document.createElement("div");
     let botonText = document.createElement("a");
+    const creatingBackgroundHeader = () =>{
+        backGroundImage.classList.add("top_image_container");
+        imageBackground.src = "../headerPics/headerbackground.png";
+        backGroundImage.appendChild(imageBackground);
+    }
     const creatingTopHeder = () =>{
         const fromTopHeader = ["Línea directa", "+01 (234) 5678 90"];
         textOne.textContent = fromTopHeader[0];
@@ -121,15 +131,22 @@ const header = () =>{
         serch.classList.add("sea");
         navContainer.classList.add("nav_container");
     }    
-    const addingToHeader = () =>{
-        const header =document.getElementById('header');
+    const addingToContainer = ()=>{
+        startContainer.classList.add("start_Container");
         creatingTopHeder();
         addingTopHeaderClass();
         creatingNavigator();
         addingNavigatorClass();
-        header.appendChild(topHeader);
-        header.appendChild(divider);
-        header.appendChild(navContainer);
+        startContainer.appendChild(topHeader);
+        startContainer.appendChild(divider);
+        startContainer.appendChild(navContainer);
+    }
+    const addingToHeader = () =>{
+        const header =document.getElementById('header');
+        addingToContainer();
+        creatingBackgroundHeader();
+        header.appendChild(backGroundImage);
+        header.appendChild(startContainer);
     }
     addingToHeader();
 }
