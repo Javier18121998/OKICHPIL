@@ -4,7 +4,7 @@ window.onload = function(){
     header();
 }
 const header = () =>{
-    /*Typing and remodel Top Header*/
+    /*Typing and remodel Top-Header*/
     let topHeader = document.createElement("div");
     let contact = document.createElement("div");
     let phonePic = document.createElement("img");
