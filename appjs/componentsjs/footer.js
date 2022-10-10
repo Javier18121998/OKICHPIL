@@ -1,7 +1,4 @@
 /*Creating the footer*/
-window.onload = function(){
-    footer();
-}
 const footer = () =>{
     /*Typing and remodel Footer */
     let footerContainer = document.createElement("div");
@@ -185,7 +182,7 @@ const footer = () =>{
         logo();
         creatingSotialFooter();
         creatingFlown();
-        creatingContactFooter
+        creatingContactFooter();
         creatingTimeFooter();
         creatingServiceFooter();
         creatingSeparatorFooter();
@@ -198,3 +195,4 @@ const footer = () =>{
     }
     addToHeader();
 }
+export{footer};

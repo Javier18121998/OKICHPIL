@@ -1,9 +1,4 @@
 /*Creating the header*/
-
-window.onload = function(){
-    header();
-}
-
 const header = () =>{
     /*Typing and remodel Top-Header*/
     let topHeader = document.createElement("div");
@@ -138,3 +133,4 @@ const header = () =>{
     }
     addingToHeader();
 }
+export{header};
