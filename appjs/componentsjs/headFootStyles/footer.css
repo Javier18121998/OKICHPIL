@@ -1,0 +1,9 @@
+body{
+    width: 100%;
+}
+.footer_container,
+.background_image_footer,
+.background_image_footer img,
+.footer_Content{
+    width: 100%;
+}
