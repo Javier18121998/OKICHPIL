@@ -7,3 +7,8 @@ body{
 .footer_Content{
     width: 100%;
 }
+.footer_container{ display: grid; grid-template-columns: 1fr; grid-template-rows: 1fr; grid-column-gap: 0px; grid-row-gap: 0px; }
+.background_image_footer{ grid-area: 1 / 1 / 2 / 2; }
+.footer_Content{ grid-area: 1 / 1 / 2 / 2; }
+.headerTopContainer{ display: flex; width: 100%;}
+.textRowlContact h6, .textRowlContact h5{ color: #ffffff}

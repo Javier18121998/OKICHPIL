@@ -9,16 +9,16 @@ const navigate = () =>{
     const contacts = document.getElementById('contacts_page');
     function valery(){
         start.addEventListener('click', function(){
-            location.href = "../index.html";
+            location.href = "./index.html";
         });
         ours.addEventListener('click', function(){
-            location.href = "../pages/nosotros.html";
+            location.href = "./pages/nosotros.html";
         });
         products.addEventListener('click', function(){
-            location.href = "../pages/productos.html";
+            location.href = "./pages/productos.html";
         });
         contacts.addEventListener('click', function(){
-            location.href = "../pages/contacto.html";
+            location.href = "./pages/contacto.html";
         });
     }
     valery();

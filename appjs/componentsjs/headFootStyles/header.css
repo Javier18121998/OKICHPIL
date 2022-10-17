@@ -1,8 +1,10 @@
-body{
-    width: 100%;
-}
+body{ width: 100%; }
 .top_image_container,
 .top_image_container img,
-.start_Container{
+.start_Container,
+.fromContent{
     width: 100%;
 }
+.fromContent{ display: grid; grid-template-columns: 1fr; grid-template-rows: 1fr; grid-column-gap: 0px; grid-row-gap: 0px; }
+.top_image_container{ grid-area: 1 / 1 / 2 / 2; }
+.start_Container{ grid-area: 1 / 1 / 2 / 2; }

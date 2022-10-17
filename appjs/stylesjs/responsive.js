@@ -1,15 +1,3 @@
-window.onload = function(){
-    Resp();
-}
-const Resp = function(){
-    navResp();
-    subtitleResp();
-    titleResp();
-    botonViewProducts();
-    infoCerts();
-    scriptHamburger();
-    ptrCont();
-}
 const navResp = () =>{
     let from_Plouck = window.innerWidth;
     const start = document.getElementById('start_page');
@@ -172,7 +160,14 @@ const scriptHamburger = () =>{
         contacts.classList.add("navText");
         contacts.classList.remove("clopt4");
     }
-    const openMenu = () =>{
-
-    }
 }
+const resp = function(){
+    navResp();
+    subtitleResp();
+    titleResp();
+    botonViewProducts();
+    infoCerts();
+    scriptHamburger();
+    ptrCont();
+}
+window.onload = resp();

@@ -1,5 +1,7 @@
 /*Creating the header*/
+let title = "Titulo";
 const header = () =>{
+    let container = document.createElement("div");
     /*This background */
     let backGroundImage = document.createElement("div");
     let imageBackground = document.createElement("img");
@@ -36,6 +38,8 @@ const header = () =>{
     let builBoton = document.createElement("div");
     let boton = document.createElement("div");
     let botonText = document.createElement("a");
+    let titleHead = document.createElement("p");
+    let titleContainer = document.createElement("div");
     const creatingBackgroundHeader = () =>{
         backGroundImage.classList.add("top_image_container");
         imageBackground.src = "../headerPics/headerbackground.png";
@@ -130,23 +134,32 @@ const header = () =>{
         serch.setAttribute("id", "sea");
         serch.classList.add("sea");
         navContainer.classList.add("nav_container");
-    }    
+    }   
+    const titleContent = () =>{
+        titleHead.textContent = title;
+        titleContainer.classList.add("titlePage");
+        titleContainer.appendChild(titleHead);
+    } 
     const addingToContainer = ()=>{
         startContainer.classList.add("start_Container");
         creatingTopHeder();
         addingTopHeaderClass();
         creatingNavigator();
         addingNavigatorClass();
+        titleContent();
         startContainer.appendChild(topHeader);
         startContainer.appendChild(divider);
         startContainer.appendChild(navContainer);
+        startContainer.appendChild(titleContainer);
     }
     const addingToHeader = () =>{
         const header =document.getElementById('header');
         addingToContainer();
         creatingBackgroundHeader();
-        header.appendChild(backGroundImage);
-        header.appendChild(startContainer);
+        container.classList.add("fromContent");
+        container.appendChild(backGroundImage);
+        container.appendChild(startContainer);
+        header.appendChild(container);
     }
     addingToHeader();
 }
