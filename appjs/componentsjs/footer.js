@@ -56,7 +56,7 @@ const footer = () =>{
     let flownh5Fourth = document.createElement("h5");
     const setingFieldsToContain = () =>{
         const titles = ["Visitanos", "Hora de Apertura", "¡Estamos para servirte!"];
-        const paragraphs = ["Mazatepec ,Tlatlauquitepec, Puebla", "¿Necesitas ayuda? <br> Llamanos", "+01 (234) 5678 90", "Lunes - Sabado", "8:00 am - 6:00 pm", "Quieres crear tus propias combinaciones de cacao con otros sabores?", "Contáctate con nosotros y haremos tus gustos realidad."];
+        const paragraphs = ["Mazatepec ,Tlatlauquitepec, Puebla", "¿Necesitas ayuda? Llamanos", "+01 (234) 5678 90", "Lunes - Sabado", "8:00 am - 6:00 pm", "Quieres crear tus propias combinaciones de cacao con otros sabores?", "Contáctate con nosotros y haremos tus gustos realidad."];
         const flownFooter = ["Copyright © 2022 Okichpil. Reservados todos los derechos.", "|", "Política de privacidad", "Términos y Condiciones", "Preguntas más frecuentes"];
         logoTop.src = "../footerPics/logo.png";
         imageBackground.src = "../footerPics/background_footer.png";

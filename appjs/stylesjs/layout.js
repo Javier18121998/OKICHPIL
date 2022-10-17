@@ -39,8 +39,7 @@ const styles = () =>{
     let colors = ["#ffffff", "rgba(167, 244, 25, 0.898)", "#ff9002" ]
     let fontsFromSize = ["2.145vh", "2.549vh", "2.56vh", "13.4vh"]
     let fontsFromWeight = ["lighter", "bold"]
-    let marginsFrom = ["0"]
-    const controlersStyles = ["title_start", "title_Start"]
+    let marginsFrom = ["0"];
     const improve = () =>{
         title_start.style.color = colors[0];
         title_start.style.fontSize = fontsFromSize[3];
@@ -119,17 +118,21 @@ const layoutsFixers = () =>{
         boton_build.style.backgroundColor = "rgb(79, 184, 13)";
         boton_build.style.cursor = "pointer";
         boton_build_text.style.fontWeight = "lighter";
+        boton_build.style.boxShadow = "0px 0px 30px 22px rgba(43,43,43,0.67)";
     });
     boton_build.addEventListener('mouseout', () =>{
         boton_build.style.backgroundColor = "rgba(167, 244, 25, 0.898)";
         boton_build_text.style.fontWeight = "bold";
+        boton_build.style.boxShadow = "none";
     });
     view_more_boton.addEventListener('mouseover', () =>{
         view_more_boton.style.backgroundColor = "rgb(255, 106, 0)";
         view_more_boton.style.cursor = "pointer";
+        view_more_boton.style.boxShadow = "0px 0px 30px 22px rgba(43,43,43,0.67)";
     });
     view_more_boton.addEventListener('mouseout', () =>{
         view_more_boton.style.backgroundColor = "orange";
+        view_more_boton.style.boxShadow = "none";
     });
     your_order_boton.addEventListener('mouseover', () =>{
         your_order_boton.style.backgroundColor = "rgb(255, 106, 0)";

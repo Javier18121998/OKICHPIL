@@ -1,6 +1,7 @@
+import {nosotros , productos, contacto} from "../navigation.js";
 /*Creating the header*/
+let title = "";
 const header = () =>{
-    let title = "";
     let container = document.createElement("div");
     /*This background */
     let backGroundImage = document.createElement("div");
@@ -137,7 +138,6 @@ const header = () =>{
         navContainer.classList.add("nav_container");
     }   
     const titleContent = () =>{
-        titleHead.textContent = title;
         titleContainer.classList.add("titlePage");
         titleContainer.appendChild(titleHead);
     } 
@@ -165,11 +165,13 @@ const header = () =>{
     const fromHovers = () =>{
         boton.addEventListener('mouseover', () =>{
             boton.style.backgroundColor = "rgb(79, 184, 13)";
-        botonText.style.fontWeight = "lighter";
+            botonText.style.fontWeight = "lighter";
+            boton.style.boxShadow = "0px 0px 30px 22px rgba(43,43,43,0.67)";
         });
         boton.addEventListener('mouseout', () =>{
             boton.style.backgroundColor = "rgba(167, 244, 25, 0.898)";
-        botonText.style.fontWeight = "bold";
+            botonText.style.fontWeight = "bold";
+            boton.style.boxShadow = "none";
         });
         toolOne.addEventListener('mouseover', () =>{
             toolOne.style.cursor = "pointer";
@@ -215,15 +217,15 @@ const header = () =>{
         });
         toolTwo.addEventListener('click', function(){
             location.href = "../pages/nosotros.html";
-            title.textContent = "Nosotros";
+            titleHead.textContent = nosotros();
         });
         toolThree.addEventListener('click', function(){
             location.href = "../pages/productos.html";
-            title.textContent = "Productos";
+            titleHead.textContent = productos();
         });
         toolFourht.addEventListener('click', function(){
             location.href = "../pages/contacto.html";
-            title.textContent = "Contacto";
+            titleHead.textContent = contacto();
         });
     }
     toNavigateHere();

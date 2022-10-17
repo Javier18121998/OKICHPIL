@@ -1,4 +1,3 @@
-
 window.onload = function(){
     navigate();
 }
@@ -13,13 +12,26 @@ const navigate = () =>{
         });
         ours.addEventListener('click', function(){
             location.href = "./pages/nosotros.html";
+            nosotros();
         });
         products.addEventListener('click', function(){
             location.href = "./pages/productos.html";
+            productos();
         });
         contacts.addEventListener('click', function(){
             location.href = "./pages/contacto.html";
+            contacto();
         });
     }
     valery();
 }
+const nosotros = () =>{
+    return message = "Nosotros";
+}
+const productos = () =>{
+    return message = "Nosotros";
+}
+const contacto = () =>{
+    return message = "Nosotros";
+}
+export{nosotros, productos, contacto}
