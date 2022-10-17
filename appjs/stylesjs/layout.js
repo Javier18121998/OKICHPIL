@@ -118,7 +118,7 @@ const layoutsFixers = () =>{
         boton_build.style.backgroundColor = "rgb(79, 184, 13)";
         boton_build.style.cursor = "pointer";
         boton_build_text.style.fontWeight = "lighter";
-        boton_build.style.boxShadow = "0px 0px 30px 22px rgba(43,43,43,0.67)";
+        boton_build.style.boxShadow = "0px 0px 34px 21px rgba(0,0,0,1)";
     });
     boton_build.addEventListener('mouseout', () =>{
         boton_build.style.backgroundColor = "rgba(167, 244, 25, 0.898)";
@@ -134,6 +134,9 @@ const layoutsFixers = () =>{
         view_more_boton.style.backgroundColor = "orange";
         view_more_boton.style.boxShadow = "none";
     });
+    view_more_boton.addEventListener('click', function(){
+        location.href = "../pages/productos.html";
+    });
     your_order_boton.addEventListener('mouseover', () =>{
         your_order_boton.style.backgroundColor = "rgb(255, 106, 0)";
         your_order_boton.style.cursor = "pointer";
@@ -148,12 +151,18 @@ const layoutsFixers = () =>{
     view_more_botoncontainer.addEventListener('mouseout', () =>{
         view_more_botoncontainer.style.backgroundColor = "orange";
     });
+    view_more_botoncontainer.addEventListener('click', function(){
+        location.href = "../pages/nosotros.html";
+    });
     viewer_boton_products.addEventListener('mouseover', () =>{
         viewer_boton_products.style.backgroundColor = "rgb(255, 106, 0)";
         viewer_boton_products.style.cursor = "pointer";
     });
     viewer_boton_products.addEventListener('mouseout', () =>{
         viewer_boton_products.style.backgroundColor = "orange";
+    });
+    viewer_boton_products.addEventListener('click', function(){
+        location.href = "../pages/productos.html";
     });
     view_more_bottonn_gallery.addEventListener('mouseover', () =>{
         view_more_bottonn_gallery.style.backgroundColor = "rgb(255, 106, 0)";

@@ -166,7 +166,7 @@ const header = () =>{
         boton.addEventListener('mouseover', () =>{
             boton.style.backgroundColor = "rgb(79, 184, 13)";
             botonText.style.fontWeight = "lighter";
-            boton.style.boxShadow = "0px 0px 30px 22px rgba(43,43,43,0.67)";
+            boton.style.boxShadow = "0px 0px 34px 21px rgba(0,0,0,1)";
         });
         boton.addEventListener('mouseout', () =>{
             boton.style.backgroundColor = "rgba(167, 244, 25, 0.898)";
