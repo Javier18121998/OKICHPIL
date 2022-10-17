@@ -22,5 +22,4 @@ const navigate = () =>{
         });
     }
     valery();
-    console.log("hola wey");
 }

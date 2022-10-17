@@ -48,7 +48,6 @@ const styles = () =>{
         title_Start.style.color = colors[0];
         title_Start.style.fontSize = fontsFromSize[3];
         title_Start.style.margin = marginsFrom[0];
-        console.log(controlersStyles[0]);
     }
     boton_build_text.style.fontWeight = fontsFromWeight[1];
     start_page.style.fontWeight = fontsFromWeight[0];

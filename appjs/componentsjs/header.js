@@ -1,6 +1,6 @@
 /*Creating the header*/
-let title = "Titulo";
 const header = () =>{
+    let title = "";
     let container = document.createElement("div");
     /*This background */
     let backGroundImage = document.createElement("div");
@@ -104,6 +104,7 @@ const header = () =>{
         navContainer.appendChild(sotialContainer);
         navContainer.appendChild(navigator);
         navContainer.appendChild(builBoton);
+        botonText.style.color = "rgb(255, 255, 255)";
     }
     const addingNavigatorClass = () =>{
         botonText.setAttribute("id", "boton-build-text");
@@ -161,6 +162,72 @@ const header = () =>{
         container.appendChild(startContainer);
         header.appendChild(container);
     }
+    const fromHovers = () =>{
+        boton.addEventListener('mouseover', () =>{
+            boton.style.backgroundColor = "rgb(79, 184, 13)";
+        botonText.style.fontWeight = "lighter";
+        });
+        boton.addEventListener('mouseout', () =>{
+            boton.style.backgroundColor = "rgba(167, 244, 25, 0.898)";
+        botonText.style.fontWeight = "bold";
+        });
+        toolOne.addEventListener('mouseover', () =>{
+            toolOne.style.cursor = "pointer";
+            toolOne.style.color = "rgb(255, 144, 2)";
+        });
+        toolOne.addEventListener('mouseout', () =>{
+            toolOne.style.color = "rgb(255, 255, 255)";
+        });
+        toolTwo.addEventListener('mouseover', () =>{
+            toolTwo.style.cursor = "pointer";
+            toolTwo.style.color = "rgb(255, 144, 2)";
+        });
+        toolTwo.addEventListener('mouseout', () =>{
+            toolTwo.style.color = "rgb(255, 255, 255)";
+        });
+        toolThree.addEventListener('mouseover', () =>{
+            toolThree.style.cursor = "pointer";
+            toolThree.style.color = "rgb(255, 144, 2)";
+        });
+        toolThree.addEventListener('mouseout', () =>{
+            toolThree.style.color = "rgb(255, 255, 255)";
+        });
+        toolFourht.addEventListener('mouseover', () =>{
+            toolFourht.style.cursor = "pointer";
+            toolFourht.style.color = "rgb(255, 144, 2)";
+        });
+        toolFourht.addEventListener('mouseout', () =>{
+            toolFourht.style.color = "rgb(255, 255, 255)";
+        });
+        logo.addEventListener('mouseover', function(){
+            logo.style.cursor = "pointer";
+        });
+        logoPic.addEventListener('mouseover', function(){
+            logoPic.style.cursor = "pointer";
+        });
+        boton.style.backgroundColor = "rgba(167, 244, 25, 0.898)";
+        botonText.style.fontSize = "2.549vh";
+        botonText.style.fontWeight = "bold";
+    }
+    const toNavigateHere = () =>{
+        toolOne.addEventListener('click', function(){
+            location.href = "../index.html";
+        });
+        toolTwo.addEventListener('click', function(){
+            location.href = "../pages/nosotros.html";
+            title.textContent = "Nosotros";
+        });
+        toolThree.addEventListener('click', function(){
+            location.href = "../pages/productos.html";
+            title.textContent = "Productos";
+        });
+        toolFourht.addEventListener('click', function(){
+            location.href = "../pages/contacto.html";
+            title.textContent = "Contacto";
+        });
+    }
+    toNavigateHere();
+    fromHovers();
     addingToHeader();
 }
 export{header};
