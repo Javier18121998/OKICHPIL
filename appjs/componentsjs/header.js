@@ -1,6 +1,4 @@
-import {nosotros , productos, contacto} from "../navigation.js";
 /*Creating the header*/
-let title = "";
 const header = () =>{
     let container = document.createElement("div");
     /*This background */
@@ -39,7 +37,7 @@ const header = () =>{
     let builBoton = document.createElement("div");
     let boton = document.createElement("div");
     let botonText = document.createElement("a");
-    let titleHead = document.createElement("p");
+    const titleHead = document.getElementById('title');
     let titleContainer = document.createElement("div");
     const creatingBackgroundHeader = () =>{
         backGroundImage.classList.add("top_image_container");
@@ -136,12 +134,8 @@ const header = () =>{
         serch.setAttribute("id", "sea");
         serch.classList.add("sea");
         navContainer.classList.add("nav_container");
-    }   
-    const titleContent = () =>{
-        titleContainer.classList.add("titlePage");
-        titleContainer.appendChild(titleHead);
-    } 
-    const addingToContainer = ()=>{
+    }
+    const addingToContainer = () =>{
         startContainer.classList.add("start_Container");
         creatingTopHeder();
         addingTopHeaderClass();
@@ -217,17 +211,18 @@ const header = () =>{
         });
         toolTwo.addEventListener('click', function(){
             location.href = "../pages/nosotros.html";
-            titleHead.textContent = nosotros();
         });
         toolThree.addEventListener('click', function(){
             location.href = "../pages/productos.html";
-            titleHead.textContent = productos();
         });
         toolFourht.addEventListener('click', function(){
             location.href = "../pages/contacto.html";
-            titleHead.textContent = contacto();
         });
     }
+    const titleContent = () =>{
+        titleContainer.classList.add("titlePage");
+        titleContainer.appendChild(titleHead);
+    } 
     toNavigateHere();
     fromHovers();
     addingToHeader();

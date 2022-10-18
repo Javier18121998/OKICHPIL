@@ -46,5 +46,5 @@ body::-webkit-scrollbar-thumb{ background-color: #d17300; border-radius: 5px; cu
     cursor: pointer;
 }
 .boton_build a { letter-spacing: 0.22vh; text-decoration: none; font-weight: bold; color: rgb(255, 255, 255); font-size: 2.549vh; font-family:'Times New Roman', Times, serif; }
-.titlePage { display: flex; justify-content: center; align-items: flex-start; width: 100%; height: 14.5785245%; margin-top: 3.5%;}
-.titlePage p{ color: #ffffff; margin-bottom: 0; font-size: 11vh; font-family: 'Marcellus', serif; line-height: 100%; letter-spacing: 0.05vh;}
+.titlePage { display: flex; justify-content: center; width: 100%; height: 14.5785245%; margin-top: 4%;}
+.titlePage p{ color: #ffffff; margin-top: 1%; font-size: 9vh; font-family: 'Marcellus', serif; line-height: 100%; letter-spacing: 0.1vh;}
