@@ -1,0 +1,51 @@
+.our-Enterprisse{ position: absolute; top: 72%; display: grid; grid-template-columns: 1fr; grid-template-rows: 1fr; grid-column-gap: 0px; grid-row-gap: 0px; width: 100%; height: 100%; z-index: 1;}
+.backgroundOnePic{ grid-area: 1 / 1 / 2 / 2; width: 100%;}
+.backgroundOnePic img{ width: 100%;}
+.enterprisseContainer{ grid-area: 1 / 1 / 2 / 2; display: flex; flex-direction: row; width: 100%; height: 100%;}
+.picEnterprisse{ width: 50%; height: 100%; display: flex; align-items: center; }
+.picEnterprisse img{ width: 82.6050222%; height: 37.8499%; margin: 0 0 0 12%;}
+.textEnterprisse{ width: 40%;  height: 100%; display: flex; flex-direction: column; align-items: flex-start; margin: 0 0 0 3.75%;}
+.textEnterprisse h6{ font-size: 2.65vh; margin: 34% 0 5% 0; color: orange; letter-spacing: 0.19vh; }
+.textEnterprisse h1{ margin: 0 0 4.5% 0; font-size: 8vh; letter-spacing: 0.11vh; font-family: 'Marcellus', serif; font-weight: bold; }
+.deslizeOne{ width: 21.9723407%; height: 4.34237666%; }
+.textEnterprisse p{ color: #838383; font-size: 3.5vh; line-height: 141.5%; width: 90%; height: 27.1442557%; margin: 4.5% 0 0 0; }
+.chocolate{ width: 100%; height: 24.1117669%; }
+.our-Mission{ position: absolute; top: 214.25%; width: 100%; height: 100%; display: grid; grid-template-columns: 1fr; grid-template-rows: 1fr; grid-column-gap: 0px; grid-row-gap: 0px; }
+.backgroundTwoPic{ grid-area: 1 / 1 / 2 / 2; width: 100%; height: 100%;}
+.backgroundTwoPic img{ width: 100%; height: 100%;}
+.missionContainer{ grid-area: 1 / 1 / 2 / 2; width: 100%; height: 100%; margin: 14.5% 0 0 0; display: flex; flex-direction: column; align-items: center; }
+.missionContainer h6{ color: orange; letter-spacing: 0.19vh; font-size: 2.65vh;}
+.missionContainer h1{ font-size: 8vh; letter-spacing: 0.41vh; font-family: 'Marcellus', serif; font-weight:lighter; color: #ffffff; margin: 0.5% 0 2.5% 0; }
+.deslizeTwo{ width: 8.788774%; height: 4.16721914%; }
+.missionContainer p{ color: #b7b7b7; font-size: 2.85vh; line-height: 141.5%; width: 56%; letter-spacing: 0.25vh; margin: 2.1% 0 0 0; }
+.flootsContainer{ display: flex; justify-content: space-around; width: 85%; height: 18.6366618%; margin: 8.85% 0 0 0; }
+.flootOne, .flootTwo, .flootThree, .flootFour{ display: flex; flex-direction: column; justify-content: space-between; align-items: center; height: 100%;}
+.flootOne h1{ font-size: 6vh; font-family: 'Marcellus', serif; margin-top: 26.75%; }.flootOne h3{ font-size: 2.8vh; font-family: 'Poppins', sans-serif; color: #ffffff; letter-spacing: 0.24vh; word-spacing: 0.3vh; }
+.flootTwo h1{ font-size: 6vh; font-family: 'Marcellus', serif; margin-top: 26.75%; }.flootTwo h3{ font-size: 2.8vh; font-family: 'Poppins', sans-serif; color: #ffffff; letter-spacing: 0.24vh; word-spacing: 0.3vh; }
+.flootThree h1{ font-size: 6vh; font-family: 'Marcellus', serif; margin-top: 26.75%; }.flootThree h3{ font-size: 2.8vh; font-family: 'Poppins', sans-serif; color: #ffffff; letter-spacing: 0.24vh; word-spacing: 0.3vh; }
+.flootFour h1{ font-size: 6vh; font-family: 'Marcellus', serif; margin-top: 26.75%; }.flootFour h3{ font-size: 2.8vh; font-family: 'Poppins', sans-serif; color: #ffffff; letter-spacing: 0.24vh; word-spacing: 0.3vh; }
+.flootOne img{ width: 42.5870195%; height: 31.5325198%; }
+.flootTwo img{ width: 45.7653866%; height: 32.4466383%; }
+.flootThree img{ width: 21.774779%; height: 31.5325198%; }
+.flootFour img{ width: 28.2471368%; height: 29.7088532%; }
+.missionValues{ position: absolute; top: 345%; width: 100%; height: 100%; z-index: 1; }
+.backgroundThreePic{ width: 100%; height: 232.5%; z-index: 1; }
+.backgroundThreePic img{ width: 100%; height: 100%; z-index: 1; }
+.vissionValues{ position: absolute; top: 45%; width: 100%; height: 100%; }
+.vission{ display: flex; flex-direction: row; width: 100%; height: 56.408%; margin-bottom: 2.5%; }
+.vissionText{ width: 40%; height: 100%; margin-left: 5%; }
+.vissionText h2{ font-size: 6vh; margin-bottom: 1.5%; }
+.vissionText img{ width: 21.9723407%; height: 12.4804992%; margin-bottom: 6%;}
+.vissionText p{ width: 70; font-size: 3.4vh;}
+.picVission{ width: 50%; }
+.picVission img{ width: 75%; height: 90%; margin-left: 11.5%; margin-top: 5%; }
+.values{ display: flex; flex-direction: row; width: 100%; height: 56.408%; margin-bottom: .5%; }
+.valuesText{ width: 40%; height: 100%; margin-left: 5%; }
+.valuesText h2{ font-size: 6vh; margin-bottom: 1.5%; }
+.valuesText img{ width: 21.9723407%; height: 12.4804992%; margin-bottom: 6%;}
+.valuesText p{ width: 70; font-size: 3.4vh; }
+.picValues{ width: 50%; }
+.picValues img{ width: 75%; height: 90%; margin-left: 11.5%; margin-top: 5%;}
+.lastValuesVision {display: flex; justify-content: center; width: 100%; height: 39.36%; }
+.lastValuesVision img{ height: 100%; width: 34.4165436%;}
+.footer_container{ top: 558%;}

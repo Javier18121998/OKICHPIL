@@ -5,9 +5,9 @@ body{ width: 100%; }
 .footer_Content{
     width: 100%;
 }
-.footer_container{ position: absolute; margin-top: 5%; height: 100%; width: 100%; z-index: 0; }
+.footer_container{ position: absolute; height: 100%; width: 100%; z-index: 0; }
 .background_image_footer{ width: 100%; height: 144%; z-index: 0; }
-.background_image_footer img{ position: relative; width: 100%; height: 100%; }
+.background_image_footer img{ position: relative; width: 100%; height: 100%; z-index: 0;}
 .footer_Content{ position: absolute; top: 22.5%; width: 100%; height: 100%; }
 .logo_footer_container{ display: flex; justify-content: center; align-items: center; width: 100%; height: 14.6381579%; }
 .logo_footer_container img{ width: 10.0443131%; height: 97.2890249%; }
