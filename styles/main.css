@@ -54,13 +54,7 @@ body::-webkit-tap-highlight{ color: none; }
 .sea{ height: 18.2895%; width: 7.70919%; }
 .navigator{ width: 31%; margin: 0 15.345% 0 4.675%; }
 .navigator nav{ display: flex; justify-content: space-between; width: 100%; height: 80%; }
-.navigator nav h5{
-    font-family: 'Poppins', sans-serif;
-    font-weight: lighter;
-    font-size: 2.145vh;
-    color: rgb(255, 255, 255);
-    height: 60%;
-}
+.navigator nav h5{ font-family: 'Poppins', sans-serif; font-weight: lighter; font-size: 2.145vh; color: rgb(255, 255, 255); height: 60%; }
 .build_boton{ display: flex; justify-content: center; align-items: center; width: 11%; }
 .boton_build{ display: flex; justify-content: center; align-items: center; height: 52%; width: 100%; }
 .boton_build a{ letter-spacing: 0.22vh; text-decoration: none; }
@@ -86,31 +80,11 @@ body::-webkit-tap-highlight{ color: none; }
 .about_Container{ position: absolute; height: 100%; width: 100%; margin-top: 72.15%; z-index: 2; }
 .background_image_about{ height: 180%; width: 100%; z-index: 2; }
 .background_image_about img{ height: 100%; width: 100%; z-index: 2; }
-.about_history_Container{
-    position: absolute;
-    top: 30%;
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-}
+.about_history_Container{ position: absolute; top: 30%; width: 100%; display: flex; flex-direction: row; justify-content: space-evenly; }
 .about_container{ display: flex; flex-direction: column; width: 43%; margin-left: 5%; }
-.subtitle{
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    width: 100%;
-    height: 3.3060037%;
-}
+.subtitle{ display: flex; justify-content: flex-start; align-items: center; width: 100%; height: 3.3060037%; }
 .subtitle p{ color: #ff9002; font-size: 2.56vh; font-family: 'Poppins', sans-serif; }
-.title{
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    width: 100%;
-    height: 24.699425%;
-    margin-top: 3.25%;
-}
+.title{ display: flex; justify-content: flex-start; align-items: center; width: 100%; height: 24.699425%; margin-top: 3.25%;}
 .title p{ font-family: 'Marcellus', serif; font-size: 8vh; }
 .img_about{ width: 100%; height: 44.2079%; margin-top: 10%; }
 .img_about img{ width: 100%; height: 100%; }
@@ -144,13 +118,7 @@ body::-webkit-tap-highlight{ color: none; }
     color: #808080;
     margin: 9.45% 0 0 0;
 }
-.paragraph2 ul{
-    font-size: 3vh;
-    font-family: 'Poppins', sans-serif;
-    letter-spacing: 0.2vh;
-    color: #808080;
-    margin: 9.45% 0 0 0;
-}
+.paragraph2 ul{ font-size: 3vh; font-family: 'Poppins', sans-serif; letter-spacing: 0.2vh; color: #808080; margin: 9.45% 0 0 0; }
 .paragraph2 ul.ul{ list-style-position: outside; }
 .paragraph2 ul li::marker{ color: orange; list-style-type: circle; font-size: 1.2em; }
 .read_more{ margin: 15% 0 0 0; width: 100%; height: 10%; }
@@ -218,14 +186,7 @@ body::-webkit-tap-highlight{ color: none; }
     z-index: 1;
 }
 .context_info_container p{ font-size: 2.6vh; color: #ffffff; margin: 1% 0 1% 0; font-family: 'Poppins', sans-serif; letter-spacing: 0.153vh; }
-.view_more_boton_container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    margin-top: 1.75%;
-    z-index: 1;
-}
+.view_more_boton_container{ display: flex; justify-content: center; align-items: center; width: 100%; margin-top: 1.75%; z-index: 1; }
 .view_more_botoncontainer{
     display: flex;
     justify-content: center;
@@ -241,23 +202,9 @@ body::-webkit-tap-highlight{ color: none; }
 .background_image_products img{ width: 100%; height: 100%; }
 .info_products_andgallery_Content{ width: 100%; height: 100%; position: absolute; top: 11%; }
 .gallery_Container_content_from{ width: 100%; height: 100%; position: static; }
-.background_image_content_from_products{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    width: 100%;
-    height: 100%;
-}
+.background_image_content_from_products{ display: flex; justify-content: center; align-items: center; position: absolute; width: 100%; height: 100%; }
 .background_image_content_from_products img{ width: 100%; height: 100%; }
-.text_content_products_content{
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    height: 100%;
-    position:absolute;
-    top: 0;
-}
+.text_content_products_content{ display: flex; flex-direction: column; width: 100%; height: 100%; position:absolute; top: 0; }
 .subtitle_products_content{ height: 7.5%; width: 100%; display: flex; justify-content: center; align-items: flex-start; }
 .subtitle_products_content h5{
     color: #ff9002;
@@ -351,14 +298,7 @@ body::-webkit-tap-highlight{ color: none; }
 }
 .showerdeslize_gallery{ display: flex; justify-content: center; width: 100%; height: 10%; margin-top: 9%; }
 .showerdeslize_gallery img{ height: 100%; width: 27.9298814%; }
-.text_info_gallery{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 30%;
-}
+.text_info_gallery{ display: flex; flex-direction: column; justify-content: center; align-items: center; width: 100%; height: 30%; }
 .text_info_gallery p{ font-family: 'Poppins', sans-serif; color: #808080; font-size: 3.3vh; margin: 0; }
 .view_more_boton_gallery{ display: flex; justify-content: center; align-items: center; width: 100%; height: 15%; }
 .view_more_bottonn_gallery{
@@ -381,14 +321,7 @@ body::-webkit-tap-highlight{ color: none; }
 .testimones_from_Content{ position: absolute; margin-top: 371.25%; height: 100%; width: 100%; }
 .background_img_testimones{ width: 100%; height: 179.75%; z-index: 0; }
 .background_img_testimones img{ position: relative; width: 100%; height: 100%; }
-.info_testimones_Container{
-    position: absolute;
-    top: 0;
-    margin-top: 12.5%;
-    width: 100%;
-    height: 100%;
-    z-index: 1;
-}
+.info_testimones_Container{ position: absolute; top: 0; margin-top: 12.5%; width: 100%; height: 100%; z-index: 1; }
 .subtitle_testimones_container{
     display: flex;
     justify-content: center;
@@ -490,14 +423,7 @@ body::-webkit-tap-highlight{ color: none; }
 .mail_from{ height: 59.5%; width: 29.25%; border: 1px solid #ff9002; outline: none; margin-left: 3.5%; }
 .soth_from{ height: 59.5%; width: 29.25%; border: 1px solid #ff9002; outline: none; margin-left: 2.75%; }
 .textarea_about_container{ display: flex; align-items: center; width: 100%; height: 20.9459459%; }
-.textarea_about_container textarea{
-    height: 88.75%;
-    width: 63%;
-    border: 1px solid #ff9102c9;
-    resize: none;
-    outline: none;
-    margin-left: 3.5%;
-}
+.textarea_about_container textarea{ height: 88.75%; width: 63%; border: 1px solid #ff9102c9; resize: none; outline: none; margin-left: 3.5%; }
 .boton_about_container{ display: flex; justify-content: flex-start; align-items: center; width: 100%; height: 10%; }
 .boton_about_toform{
     display: flex;
@@ -532,22 +458,9 @@ body::-webkit-tap-highlight{ color: none; }
 .separator_footer img{ width: 100%; height: 92.15%; }
 .contact_footer_container{ display: flex; flex-direction: column; align-items: center; width: 17.2454905%; height: 100%; }
 .cocoe_footer{ width: 33.8269551%; height: 21.4465261%; }
-.contact_footer_container h5{
-    font-family: 'Marcellus', serif;
-    font-size: 2.41vh;
-    color: #ffffff;
-    letter-spacing: 0.2vh;
-    word-spacing: 0.19vh;
-}
+.contact_footer_container h5{ font-family: 'Marcellus', serif; font-size: 2.41vh; color: #ffffff; letter-spacing: 0.2vh; word-spacing: 0.19vh; }
 .contact_footer_container img{ margin-bottom: 3%; }
-.pvisit1{
-    font-family: 'Marcellus', serif;
-    font-size: 2.0351vh;
-    color: #ffffff;
-    letter-spacing: 0.2vh;
-    word-spacing: 0.19vh;
-    margin: 7.5% 0 2% 0; 
-}
+.pvisit1{ font-family: 'Marcellus', serif; font-size: 2.0351vh; color: #ffffff; letter-spacing: 0.2vh; word-spacing: 0.19vh; margin: 7.5% 0 2% 0; }
 .pvisit2{
     font-family: 'Marcellus', serif;
     font-size: 2.0351vh;
@@ -566,13 +479,7 @@ body::-webkit-tap-highlight{ color: none; }
 }
 .time_footer_container{ display: flex; flex-direction: column; align-items: center; width: 17.2454905%; height: 100%; }
 .clock_footer{ width: 33.2778702%; height: 15.7489024%; }
-.time_footer_container h5{
-    font-family: 'Marcellus', serif;
-    font-size: 2.41vh;
-    color: #ffffff;
-    letter-spacing: 0.2vh;
-    word-spacing: 0.19vh;
-}
+.time_footer_container h5{ font-family: 'Marcellus', serif; font-size: 2.41vh; color: #ffffff; letter-spacing: 0.2vh; word-spacing: 0.19vh; }
 .time_footer_container img{ margin-bottom: 3%; }
 .ptime1{
     font-family: 'Marcellus', serif;
