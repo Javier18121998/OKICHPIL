@@ -35,6 +35,7 @@ const createCardProduct = () =>{
         ranking.classList.add("ranking");
         cardBody.appendChild(ranking);
         price.textContent = pricesTo[0];
+        price.style.color = "#D4390A";
         price.classList.add("card-text");
         cardBody.appendChild(price);
         buttonViewMore.textContent = textbutton;
@@ -92,6 +93,7 @@ const createCardProduct = () =>{
         ranking1.classList.add("ranking");
         cardBody1.appendChild(ranking1);
         price1.textContent = pricesTo[0];
+        price1.style.color = "#D4390A";
         price1.classList.add("card-text");
         cardBody1.appendChild(price1);
         buttonViewMore1.textContent = textbutton;
@@ -149,6 +151,7 @@ const createCardProduct = () =>{
         ranking2.classList.add("ranking");
         cardBody2.appendChild(ranking2);
         price2.textContent = pricesTo[0];
+        price2.style.color = "#D4390A";
         price2.classList.add("card-text");
         cardBody2.appendChild(price2);
         buttonViewMore2.textContent = textbutton;
