@@ -424,7 +424,7 @@ body::-webkit-tap-highlight{ color: none; }
 .soth_from{ height: 59.5%; width: 29.25%; border: 1px solid #ffa42c8b; outline: none; margin-left: 2.75%; }
 .textarea_about_container{ display: flex; align-items: center; width: 100%; height: 20.9459459%; }
 .textarea_about_container textarea{ height: 88.75%; width: 63%; border: 1px solid #ffa42c8b; resize: none; outline: none; margin-left: 3.5%; }
-.textarea_about_container textarea::-webkit-scrollbar{ width: 8px; background: #c8c8c8; cursor: pointer;}
+.textarea_about_container textarea::-webkit-scrollbar{ width: 8px; background: #dfdfdfde; cursor: pointer;}
 .textarea_about_container textarea::-webkit-scrollbar-thumb{ width: 3px; background: #ff9002; cursor: default;}
 .boton_about_container{ display: flex; justify-content: flex-start; align-items: center; width: 100%; height: 10%; }
 .boton_about_toform{
