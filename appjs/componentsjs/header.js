@@ -218,6 +218,9 @@ const header = () =>{
         toolFourht.addEventListener('click', function(){
             location.href = "../pages/contacto.html";
         });
+        logo.addEventListener('click', function(){
+            location.href = "../index.html";
+        });
     }
     const titleContent = () =>{
         titleContainer.classList.add("titlePage");
