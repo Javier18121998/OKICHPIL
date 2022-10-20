@@ -135,7 +135,8 @@ const layoutsFixers = () =>{
         view_more_boton.style.boxShadow = "none";
     });
     view_more_boton.addEventListener('click', function(){
-        location.href = "../pages/productos.html";
+        let productsGoTo = window.open("../pages/productos.html", '_blank');
+        productsGoTo.focus();
     });
     your_order_boton.addEventListener('mouseover', () =>{
         your_order_boton.style.backgroundColor = "rgb(255, 106, 0)";
@@ -152,7 +153,8 @@ const layoutsFixers = () =>{
         view_more_botoncontainer.style.backgroundColor = "orange";
     });
     view_more_botoncontainer.addEventListener('click', function(){
-        location.href = "../pages/nosotros.html";
+        let productsGoTo = window.open("../pages/nosotros.html", '_blank');
+        productsGoTo.focus();
     });
     viewer_boton_products.addEventListener('mouseover', () =>{
         viewer_boton_products.style.backgroundColor = "rgb(255, 106, 0)";
@@ -162,7 +164,8 @@ const layoutsFixers = () =>{
         viewer_boton_products.style.backgroundColor = "orange";
     });
     viewer_boton_products.addEventListener('click', function(){
-        location.href = "../pages/productos.html";
+        let productsGoTo = window.open("../pages/productos.html", '_blank');
+        productsGoTo.focus();
     });
     view_more_bottonn_gallery.addEventListener('mouseover', () =>{
         view_more_bottonn_gallery.style.backgroundColor = "rgb(255, 106, 0)";
