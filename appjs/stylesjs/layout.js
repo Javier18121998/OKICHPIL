@@ -171,6 +171,10 @@ const layoutsFixers = () =>{
     view_more_bottonn_gallery.addEventListener('mouseout', () =>{
         view_more_bottonn_gallery.style.backgroundColor = "orange";
     });
+    view_more_bottonn_gallery.addEventListener('click', () =>{
+        var gallery = window.open("../pages/galeria.html", '_blank');
+        gallery.focus();
+    });
     boton_about_toform.addEventListener('mouseover', () =>{
         boton_about_toform.style.backgroundColor = "rgb(255, 106, 0)";
         boton_about_toform.style.cursor = "pointer";
