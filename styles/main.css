@@ -28,8 +28,8 @@ body::-webkit-tap-highlight{ color: none; }
     margin-left: 3%;
     margin-top: 14.55%;
 }
-.text_rowl_contact h6{ margin: 0 0 0 0; color: #ffffff; font-size: 1.85vh; letter-spacing: 0.231vh;  font-family: 'Poppins', sans-serif; }
-.text_rowl_contact h5{margin: 5% 0 0 0;color: #ffffff;font-size: 2.54vh;letter-spacing: 0.2vh;word-spacing: 0.2vh;font-family: 'Poppins', sans-serif;}
+.text_rowl_contact h6{ margin: 0 0 0 0; color: #ffffff; font-size: 0.7145rem; letter-spacing: 0.231vh;  font-family: 'Poppins', sans-serif; }
+.text_rowl_contact h5{margin: 5% 0 0 0;color: #ffffff; font-size: 1.001rem; letter-spacing: 0.2vh;word-spacing: 0.2vh;font-family: 'Poppins', sans-serif;}
 .logo_start{ width: 10.08154%; height: 100%; margin: 0 0 0 3.75%; }
 .logo_start img{ width: 100%; height: 100%; }
 .divider_one_container{ border-top: 1px solid #cfcfcf57; width: 100%; height: 1%; background-color: #00000028; }

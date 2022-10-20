@@ -16,8 +16,8 @@ body::-webkit-scrollbar-thumb{ background-color: #d17300; border-radius: 5px; cu
 .callPhoneContact { display: flex; flex-direction: row; margin: 0 14% 0 7.5%; width: 20%; }
 .callPhoneContact img { height: 58%; width: 20%; margin-top: 14%; }
 .textRowlContact { display: flex; flex-direction: column; justify-content: space-around; height: 52.5%; width: 61.5%; margin-left: 3%; margin-top: 14.55%; }
-.textRowlContact h6 { margin: 0 0 0 0; color: #ffffff; font-size: 1.85vh; letter-spacing: 0.231vh; font-family: 'Poppins', sans-serif; font-weight: bold; }
-.textRowlContact h5 { margin: 5% 0 0 0; color: #ffffff; font-size: 2.54vh; letter-spacing: 0.2vh; word-spacing: 0.2vh; font-family: 'Poppins', sans-serif; font-weight: bold; }
+.textRowlContact h6 { margin: 0 0 0 0; color: #ffffff; font-size: 0.7145rem; letter-spacing: 0.231vh; font-family: 'Poppins', sans-serif; font-weight: bold; }
+.textRowlContact h5 { margin: 5% 0 0 0; color: #ffffff; font-size: 1.001rem; letter-spacing: 0.2vh; word-spacing: 0.2vh; font-family: 'Poppins', sans-serif; font-weight: bold; }
 .logoHeader{ width: 10.08154%; height: 100%; margin: 0 0 0 3.75%; }
 .logoHeader img { width: 100%; height: 100%; }
 .divider_one_container { border-top: 1px solid #cfcfcf57; width: 100%; height: 0.347107725%; background-color: #00000028; }
