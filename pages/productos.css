@@ -1,8 +1,18 @@
-body{background-color: rgb(50, 28, 0);}
+body{background-color: rgb(50, 28, 0); }
 .productsContainer{ display: flex; position: absolute; top: 72%; width: 100%; height: 100%; z-index: 1; }
 .background{ width: 100%; z-index: 1; }
 .background img{ width: 100%; z-index: 1; }
-.containeR{ display: flex; flex-direction: row; position: absolute; top: 30%; width: 100%; height: 100%; z-index: 2; } 
-.sideBarCrop{ width: 20.25%; height: 100%; margin-left: 5%; padding: 5% 2.5% 5% 0;}
-.container{ padding-top: 5%; }
+.containeR{ display: flex; flex-direction: row; position: absolute; top: 18%; width: 100%; height: 100%; z-index: 2; } 
+.sideBarCrop{ width: 20.25%; height: 100%; margin-left: 5%; padding: 4.75% 3% 5% 0;}
+.container{ padding-top: 5%; padding-left: 4.5%; padding-right: 4.75%;}
+.card-title{ font-family: 'Marcellus', serif; font-weight: light; font-size: 1.6rem;}
+.categories{ margin-bottom: 34%;}
+.Prices{ margin-bottom: 34%;}
+.categories h6, .Prices h6, .offs h6{ font-family: 'Marcellus', serif; font-size: 0.9rem; color: #575757; margin: 6% 0 6% 0;} 
+.categories h2, .Prices h2, .offs h2{ font-family: 'Poppins', sans-serif; font-size: 1.5rem; margin: 0% 0 8% 0;} 
+.card-text{ font-family: 'Poppins', sans-serif; font-weight:unset; }
+.btn{ width: 75%; font-weight:normal; font-family: 'Marcellus', serif; font-size: 0.9rem; border-radius: 0; margin-top: 5%;}
+.card{ border: unset; border-radius: 0; }
+.card-img-top{ border-radius: 0;}
+.row{margin-bottom: 5%;}
 .footer_container{ top: 405%;}

@@ -1,0 +1,4 @@
+.gallery{position: absolute; top: 72%; width: 100%; height: 100%; z-index: 1; }
+.background{ width: 100%; height: 345%; z-index: 1; }
+.background img{ width: 100%; height: 100%; }
+.footer_container{ top: 358%; z-index: 0;}
