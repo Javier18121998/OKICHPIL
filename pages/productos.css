@@ -1,5 +1,5 @@
 body{background-color: rgb(50, 28, 0); }
-.productsContainer{ display: flex; position: absolute; top: 72%; width: 100%; height: 100%; z-index: 1; }
+.productsContainer{ display: flex; position: absolute; top: 69.45%; width: 100%; height: 100%; z-index: 1; }
 .background{ width: 100%; z-index: 1; }
 .background img{ width: 100%; z-index: 1; }
 .containeR{ display: flex; flex-direction: row; position: absolute; top: 18%; width: 100%; height: 100%; z-index: 2; } 
