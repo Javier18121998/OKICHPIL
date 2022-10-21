@@ -145,6 +145,10 @@ const layoutsFixers = () =>{
     your_order_boton.addEventListener('mouseout', function(){
         your_order_boton.style.backgroundColor = "orange";
     });
+    your_order_boton.addEventListener('click', () =>{
+        let productsGoTo = window.open("../pages/historia.html", '_blank');
+        productsGoTo.focus();
+    });
     view_more_botoncontainer.addEventListener('mouseover', () =>{
         view_more_botoncontainer.style.backgroundColor = "rgb(255, 106, 0)";
         view_more_botoncontainer.style.cursor = "pointer";
