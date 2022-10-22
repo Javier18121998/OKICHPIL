@@ -16,3 +16,5 @@ body{background-color: rgb(50, 28, 0); }
 .card-img-top{ border-radius: 0;}
 .row{margin-bottom: 5%;}
 .footer_container{ top: 405%;}
+.scrollUp{position: fixed; right: 0; z-index: 8; bottom: 3%; cursor: pointer; width: 5%; height: 5%;}
+.scrollUp path{color: #ff9002;}

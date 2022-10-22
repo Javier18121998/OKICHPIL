@@ -4,3 +4,5 @@
 .grid{ position: absolute; top: 50%; width: 90%; left: 5%;}
 .grid div img{ cursor: pointer; }
 .footer_container{ top: 358%; z-index: 0;}
+.scrollUp{position: fixed; right: 0; z-index: 8; bottom: 3%; cursor: pointer; width: 5%; height: 5%;}
+.scrollUp path{color: #ff9002;}

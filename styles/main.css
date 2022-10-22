@@ -436,3 +436,5 @@ body::-webkit-tap-highlight{ color: none; }
     cursor: pointer;
 }
 .flown_footer_container h4{ font-family: 'Poppins', sans-serif; font-size: 3.15vh; font-weight: lighter; color:  #ffffff; }
+.scrollUp{position: fixed; right: 0; z-index: 8; bottom: 3%; cursor: pointer; width: 5%; height: 5%;}
+.scrollUp path{color: #ff9002;}
