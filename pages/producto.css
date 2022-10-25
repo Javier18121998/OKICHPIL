@@ -24,5 +24,7 @@ body{background-color: rgb(50, 28, 0); }
 .card-text {font-family: 'Poppins', sans-serif;font-weight: unset;}
 .btn {width: 75%;font-weight: normal;font-family: 'Marcellus', serif;font-size: 0.9rem;border-radius: 0;margin-top: 5%;}
 .footer_container{ top: 402.25%;}
-.scrollUp{position: fixed; right: 0; z-index: 8; bottom: 3%; cursor: pointer; width: 5%; height: 5%;}
-.scrollUp path{color: #ff9002;}
+.scrollUp{position: fixed; right: 1%; z-index: 8; bottom: 2%; cursor: pointer; width: 2.25%; height: 5%;}
+.scrollUp:hover{background-color: #ff8c00; border: 1px solid #ff8c00;}
+.scrollUp path{color: #ff8c00; width: 100%; height: 100%;}
+.scrollUp path:hover{ color: white; }

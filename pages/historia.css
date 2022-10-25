@@ -29,5 +29,7 @@ body{width: 100%; background-color: rgb(30, 16, 2);}
 .textProduction{margin: 0 0 6.75% 0;}
 .textProduction p{ font-family: 'Poppins', sans-serif; font-size: 1rem; font-weight: 200; letter-spacing: 0.1rem; line-height: 0.675rem; color: #808080;}
 .footer_container{ top: 926.67%;}
-.scrollUp{position: fixed; right: 0; z-index: 8; bottom: 3%; cursor: pointer; width: 5%; height: 5%;}
-.scrollUp path{color: #ff9002;}
+.scrollUp{position: fixed; right: 1%; z-index: 8; bottom: 2%; cursor: pointer; width: 2.25%; height: 5%;}
+.scrollUp:hover{background-color: #ff8c00; border: 1px solid #ff8c00;}
+.scrollUp path{color: #ff8c00; width: 100%; height: 100%;}
+.scrollUp path:hover{ color: white; }
