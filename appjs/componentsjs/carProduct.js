@@ -57,6 +57,10 @@ const createCardProduct = () =>{
         buttonViewMore.style.backgroundColor = "rgb(240, 72, 11)";
         buttonViewMore.style.borderColor = "rgb(240, 72, 11)";
         cardBody.appendChild(buttonViewMore);
+        buttonViewMore.addEventListener('click', () =>{
+            let product = window.open("../pages/producto.html", "_blank");
+            product.focus();
+        });
     }
     const creatingCard = () =>{
         creatingCardBody();

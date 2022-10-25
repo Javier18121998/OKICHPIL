@@ -189,5 +189,12 @@ const layoutsFixers = () =>{
     boton_about_toform.addEventListener('mouseout', () =>{
         boton_about_toform.style.backgroundColor = "orange";
     });
+    const scrollUp = () =>{
+        const toUpp = document.getElementById('toUpp');
+        toUpp.addEventListener('click', function(){
+            window.scrollTo(0, 0);
+        });
+    }
+    scrollUp(); 
 }
 window.onload = principalHadder();

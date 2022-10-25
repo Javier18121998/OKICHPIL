@@ -35,5 +35,18 @@ const steps = () =>{
         newPageTwo.focus();
     });
     placeHoldersFill();
+    const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+    const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl));
+    tooltipList;
+    const scrollUp = () =>{
+        const toUpp = document.getElementById('toUpp');
+        toUpp.addEventListener('click', function(){
+            window.scrollTo(0, 0);
+        });
+    }
+    scrollUp();    
 }
 window.onload = steps();
+//How can I scroll to upp in Js?
+
+

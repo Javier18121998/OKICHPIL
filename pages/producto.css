@@ -1,0 +1,28 @@
+body{background-color: rgb(50, 28, 0); }
+.productContainer{position: absolute; width: 100%; top: 69.45%; z-index: 1;}
+.background{width: 100%; z-index: 1;}
+.background img{width: 100%; z-index: 1;}
+.Container{width: 100%; min-width: 100%; position: absolute; top: 12%;}
+.product-info{display: flex; justify-content: center;}
+.card-Body{display: flex; justify-content: space-between; width: 100%; padding-left: 0; padding-right: 0;}
+#selferPics{width: 35%;}
+.card-Body img{width: 22.5%;}
+.notE{border: 0.0001rem solid rgb(217, 217, 217); width: 83.5%; margin: 5% 0 6.15% 8.25%;}
+.callout-info {padding: 2%; color: #808080; font-weight: 300; width: 94.2%;}
+.callout-info a{font-weight: 700; padding: 0 0.5% 0 0;}
+.more{width: 100%;}
+.titleButton{width: 83.5%; margin-left: 8.25%; padding: 0;}
+.titleButton h5{display: flex; justify-content: flex-start; padding: 0; font-family: 'Poppins', sans-serif; font-size: 1.5rem;}
+.titleButton h6{display: flex; justify-content: flex-end; align-items: center; padding-right: 1%; color: orange; font-family: 'Poppins', sans-serif; font-size: 1rem;}
+.divider{border: 01e-7rem solid rgb(217, 217, 217); width: 83%; margin: 0.25% 0 2% 8.25%;}
+.productsCarousel{width: 100%; padding: 0; margin-left: 0%;}
+.row{width: 100%; margin: 0;}
+.folk{width: 85%; margin-left: 7.5%;}
+.card{border: unset;}
+.card-img-top{border-radius: 0;}
+.card-title {font-family: 'Marcellus', serif;font-weight: light;font-size: 1.6rem;}
+.card-text {font-family: 'Poppins', sans-serif;font-weight: unset;}
+.btn {width: 75%;font-weight: normal;font-family: 'Marcellus', serif;font-size: 0.9rem;border-radius: 0;margin-top: 5%;}
+.footer_container{ top: 402.25%;}
+.scrollUp{position: fixed; right: 0; z-index: 8; bottom: 3%; cursor: pointer; width: 5%; height: 5%;}
+.scrollUp path{color: #ff9002;}
