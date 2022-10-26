@@ -353,5 +353,86 @@ const createCardProduct = () =>{
         });
     }
     spinceHens();
+    const infloatItems = () =>{
+        const borderFb = document.getElementById('Component_28_1');
+        const facebook = document.getElementById('Ellipse_88');
+        const logoFbItem = document.getElementById('Path_2615');
+        const borderIg = document.getElementById('Component_29_1');
+        const instagram = document.getElementById('Ellipse_89');
+        const logoIgItem1 = document.getElementById('Path_2616');
+        const logoIgItem2 = document.getElementById('Path_2617');
+        const logoIgItem3 = document.getElementById('Path_2618');
+        facebook.addEventListener('mouseover', function(){
+            facebook.style.fill = "#ffffff";
+            logoFbItem.style.fill = "#ff9002";
+            facebook.style.cursor = "pointer";
+            borderFb.style.border = "1px solid orange";
+            borderFb.style.borderRadius = "50%";
+        });
+        facebook.addEventListener('mouseout', function(){
+            logoFbItem.style.fill = "#ffffff";
+            facebook.style.fill = "#ff9002";
+            borderFb.style.border = "none";
+            borderFb.style.borderRadius = "none";
+        });
+        facebook.addEventListener('click', function(){
+            const goToFacebook = window.open("https://www.facebook.com/", '_blank');
+            goToFacebook.focus();
+        });
+        logoFbItem.addEventListener('mouseover', function(){
+            facebook.style.fill = "#ffffff";
+            logoFbItem.style.fill = "#ff9002";
+            facebook.style.cursor = "pointer";
+            borderFb.style.border = "1px solid #ff9002";
+            borderFb.style.borderRadius = "50%";
+        });
+        logoFbItem.addEventListener('mouseout', function(){
+            logoFbItem.style.fill = "#ffffff";
+            facebook.style.fill = "#ff9002";
+            borderFb.style.border = "none";
+            borderFb.style.borderRadius = "none";
+        });
+        instagram.addEventListener('mouseover', function(){
+            instagram.style.fill = "#ffffff";
+            logoIgItem1.style.fill = "#ff9002";
+            logoIgItem2.style.fill = "#ff9002";
+            logoIgItem3.style.fill = "#ff9002";
+            instagram.style.cursor = "pointer";
+            borderIg.style.border = "1px solid #ff9002";
+            borderIg.style.borderRadius = "50%";
+        });
+        instagram.addEventListener('click', function(){
+            const goToInstagram = window.open("https://www.instagram.com/", '_blank');
+            goToInstagram.focus();
+        });
+        instagram.addEventListener('mouseout', function(){
+            instagram.style.fill = "#ff9002";
+            logoIgItem1.style.fill = "#ffffff";
+            logoIgItem2.style.fill = "#ffffff";
+            logoIgItem3.style.fill = "#ffffff";
+            instagram.style.cursor = "pointer";
+            borderIg.style.border = "1px solid #ffffff";
+            borderIg.style.borderRadius = "50%";
+        });
+        logoIgItem1.addEventListener('mouseover', function(){
+            instagram.style.fill = "#ffffff";
+            logoIgItem1.style.fill = "#ff9002";
+            logoIgItem2.style.fill = "#ff9002";
+            logoIgItem3.style.fill = "#ff9002";
+            instagram.style.cursor = "#ff9002";
+            borderIg.style.border = "1px solid #ff9002";
+            borderIg.style.borderRadius = "50%";
+        });
+        logoIgItem1.addEventListener('mouseout', function(){
+            instagram.style.fill = "#ff9002";
+            logoIgItem1.style.fill = "#ffffff";
+            logoIgItem2.style.fill = "#ffffff";
+            logoIgItem3.style.fill = "#ffffff";
+            instagram.style.cursor = "pointer";
+            borderIg.style.border = "1px solid #ffffff";
+            borderIg.style.borderRadius = "50%";
+        });
+    }
+    infloatItems();
 }
 window.onload = createCardProduct();
