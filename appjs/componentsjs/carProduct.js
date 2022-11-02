@@ -70,7 +70,6 @@ const createCardProduct = () =>{
         cardBody.classList.add("card-body");
         cardContainer.appendChild(cardBody);
         cardContainer.classList.add("card");
-        cardContainer.setAttribute("style", "width: 18rem;");
     }
     const addinToCardCero = () =>{
         creatingCard();
@@ -133,7 +132,6 @@ const createCardProduct = () =>{
         cardBody1.classList.add("card-body");
         cardContainer1.appendChild(cardBody1);
         cardContainer1.classList.add("card");
-        cardContainer1.setAttribute("style", "width: 18rem;");
     }
     const addinToCardCero1 = () =>{
         creatingCard1();
@@ -196,7 +194,6 @@ const createCardProduct = () =>{
         cardBody2.classList.add("card-body");
         cardContainer2.appendChild(cardBody2);
         cardContainer2.classList.add("card");
-        cardContainer2.setAttribute("style", "width: 18rem;");
     }
     const addinToCardCero2 = () =>{
         creatingCard2();
@@ -259,7 +256,6 @@ const createCardProduct = () =>{
         cardBody3.classList.add("card-body");
         cardContainer3.appendChild(cardBody3);
         cardContainer3.classList.add("card");
-        cardContainer3.setAttribute("style", "width: 18rem;");
     }
     const addinToCardCero3 = () =>{
         creatingCard3();
@@ -322,7 +318,6 @@ const createCardProduct = () =>{
         cardBody4.classList.add("card-body");
         cardContainer4.appendChild(cardBody4);
         cardContainer4.classList.add("card");
-        cardContainer4.setAttribute("style", "width: 18rem;");
     }
     const addinToCardCero4 = () =>{
         creatingCard4();
@@ -385,7 +380,6 @@ const createCardProduct = () =>{
         cardBody5.classList.add("card-body");
         cardContainer5.appendChild(cardBody5);
         cardContainer5.classList.add("card");
-        cardContainer5.setAttribute("style", "width: 18rem;");
     }
     const addinToCardCero5 = () =>{
         creatingCard5();
@@ -448,7 +442,6 @@ const createCardProduct = () =>{
         cardBody6.classList.add("card-body");
         cardContainer6.appendChild(cardBody6);
         cardContainer6.classList.add("card");
-        cardContainer6.setAttribute("style", "width: 18rem;");
     }
     const addinToCardCero6 = () =>{
         creatingCard6();
@@ -511,7 +504,6 @@ const createCardProduct = () =>{
         cardBody7.classList.add("card-body");
         cardContainer7.appendChild(cardBody7);
         cardContainer7.classList.add("card");
-        cardContainer7.setAttribute("style", "width: 18rem;");
     }
     const addinToCardCero7 = () =>{
         creatingCard7();
@@ -574,7 +566,6 @@ const createCardProduct = () =>{
         cardBody8.classList.add("card-body");
         cardContainer8.appendChild(cardBody8);
         cardContainer8.classList.add("card");
-        cardContainer8.setAttribute("style", "width: 18rem;");
     }
     const addinToCardCero8 = () =>{
         creatingCard8();
