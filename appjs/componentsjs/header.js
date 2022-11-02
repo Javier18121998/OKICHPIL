@@ -204,6 +204,11 @@ const header = () =>{
         boton.style.backgroundColor = "rgba(167, 244, 25, 0.898)";
         botonText.style.fontSize = "2.549vh";
         botonText.style.fontWeight = "bold";
+        const respText = window.innerWidth;
+        const resPText = respText - 4;
+        if (resPText <= 480) {
+            botonText.style.fontSize = "0rem";
+        }
     }
     const toNavigateHere = () =>{
         toolOne.addEventListener('click', function(){
