@@ -118,6 +118,11 @@ const createCardProduct = () =>{
             containerTable.setAttribute("style", "width: 25rem");
             containerTable.appendChild(firstPic);
             containerTable.appendChild(tableBody);
+            const pl = window.innerWidth;
+            const tr = pl - 4;
+            if (tr <= 480) {
+                containerTable.setAttribute("style", "width: 17rem");
+            }
         }
         const addingTableTo = () =>{
             creattingTable();
