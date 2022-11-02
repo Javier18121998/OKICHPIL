@@ -55,4 +55,5 @@ body{background-color: rgb(50, 28, 0); }
     .Container{ top: 0; background-color: #ffffff;}
     .footer_container{ top: 710.25%;}
     .productContainer {top: 40.45%;}
+    .scrollUp {width: 9%;}
 }
