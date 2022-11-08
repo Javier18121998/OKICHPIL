@@ -197,8 +197,6 @@ const createCardProduct = () =>{
     }
     const addinToCardCero2 = () =>{
         creatingCard2();
-        const card2 = document.getElementById('cardTwo');
-        card2.appendChild(cardContainer2);
     }
     addinToCardCero2();
     const cardContainer3 = document.createElement("div");
@@ -260,7 +258,6 @@ const createCardProduct = () =>{
     const addinToCardCero3 = () =>{
         creatingCard3();
         const card3 = document.getElementById('cardThree');
-        card3.appendChild(cardContainer3);
     }
     addinToCardCero3();
     const cardContainer4 = document.createElement("div");
@@ -322,7 +319,6 @@ const createCardProduct = () =>{
     const addinToCardCero4 = () =>{
         creatingCard4();
         const card4 = document.getElementById('cardFour');
-        card4.appendChild(cardContainer4);
     }
     addinToCardCero4();
     const cardContainer5 = document.createElement("div");
@@ -384,7 +380,6 @@ const createCardProduct = () =>{
     const addinToCardCero5 = () =>{
         creatingCard5();
         const card5 = document.getElementById('cardFive');
-        card5.appendChild(cardContainer5);
     }
     addinToCardCero5();
     const cardContainer6 = document.createElement("div");
@@ -446,7 +441,6 @@ const createCardProduct = () =>{
     const addinToCardCero6 = () =>{
         creatingCard6();
         const card6 = document.getElementById('cardSixe');
-        card6.appendChild(cardContainer6);
     }
     addinToCardCero6();
     const cardContainer7 = document.createElement("div");
@@ -507,7 +501,7 @@ const createCardProduct = () =>{
     }
     const addinToCardCero7 = () =>{
         creatingCard7();
-        const card7 = document.getElementById('cardSeven');
+        const card7 = document.getElementById('cardTwo');
         card7.appendChild(cardContainer7);
     }
     addinToCardCero7();
@@ -570,7 +564,6 @@ const createCardProduct = () =>{
     const addinToCardCero8 = () =>{
         creatingCard8();
         const card8 = document.getElementById('cardEight');
-        card8.appendChild(cardContainer8);
     }
     addinToCardCero8();
     buttonViewMore.addEventListener('mouseover', function(){

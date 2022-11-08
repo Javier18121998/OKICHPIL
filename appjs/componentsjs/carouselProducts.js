@@ -439,5 +439,14 @@ const createCardProduct = () =>{
         });
     }
     infloatItems();
+    const defaultChecked = () =>{
+        const firstCheckBox = document.getElementById('checkbox')
+        firstCheckBox.click()
+        firstCheckBox.style.backgroundColor = "#fbfbfb"
+        firstCheckBox.style.border = "1px solid #a9c21c"
+        firstCheckBox.style.borderRadius = "0";
+        firstCheckBox.style.backgroundImage = "../image_Container/producto/checkedwave.png"
+    }
+    defaultChecked()
 }
 window.onload = createCardProduct();
