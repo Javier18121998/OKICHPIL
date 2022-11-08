@@ -35,13 +35,13 @@ body{background-color: rgb(50, 28, 0); }
 .list-group{--bs-list-group-border-color: none; --bs-list-group-border-width: none; --bs-list-group-border-radius: none;}
 .dropdown-menu{--bs-dropdown-link-hover-bg: #ff8c00}
 .dropdown-menu li a:hover{ color: #ffffff;}
-.stockNumber{font-family: 'Poppins', sans-serif; display: flex; width: 100%; font-weight: 300; color: #414141;}
-.stockNumber h6{font-family: 'Poppins', sans-serif; margin-bottom: 0; margin-right: 2%; color: #414141; font-weight: 500;}
-.a{margin-bottom: 1%;}.c{margin: 1% 0 1.75% 0;}.d{margin: 0 0 8.75% 0;}.e{margin: 0 0 5% 0; width: 60%;}.f{margin: 0 0 6% 0; width: 60%;}.h{margin: 2.5% 0 0 0;width: 32.5%;}
+.stockNumber{ font-size: 0.88rem; font-family: 'Poppins', sans-serif; display: flex; width: 100%; font-weight: 300; color: #414141;}
+.stockNumber h6{font-size: 0.88rem; font-family: 'Poppins', sans-serif; margin-bottom: 0; margin-right: 2%; color: #414141; font-weight: 500;}
+.a{margin-bottom: 1%;}.c{margin: 1% 0 1.75% 0;}.d{margin: 0 0 5.75% 0;}.e{margin: 0 0 3.75% 0; width: 60%;}.f{margin: 0 0 4.75% 0; width: 60%;}.h{margin: 2.25% 0 0 0; width: 32.5%;}
 .facebook-setph{padding-left: 0; padding-right: 0; width: auto;}
 .facebook-setph svg circle{color: #ffffff;}
 .instagram-setph{padding-left: 0; padding-right: 0; width: auto;}
-.presentation-dropdown, .presentation,.presentation h6, .cuantity, .cuantity h6{width: auto;} 
+.presentation-dropdown, .presentation,.presentation h6, .cuantity, .cuantity h6{width: auto; font-size: 0.88rem;} 
 .presentation-dropdowN{width: auto; padding-right: 0;}
 .share{display: flex; align-items: center; padding-left: 0; padding-right: 0; width: auto;}
 input[type=checkbox]{

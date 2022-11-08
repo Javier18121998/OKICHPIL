@@ -7,7 +7,7 @@ const steps = () =>{
     const locatioN = document.getElementById('location-Pic');
     const maiL = document.getElementById('mail-Pic');
     const placeHoldersFill = () =>{
-        const placeHolders = ["Nombre", "Correo", "Asunto", "Mensaje"];
+        const placeHolders = ["  Nombre", "  Correo", "  Asunto", "  Mensaje"];
         name.placeholder = placeHolders[0];
         mail.placeholder = placeHolders[1];
         soth.placeholder = placeHolders[2];
@@ -47,6 +47,5 @@ const steps = () =>{
     scrollUp();    
 }
 window.onload = steps();
-//How can I scroll to upp in Js?
 
 

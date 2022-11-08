@@ -24,7 +24,7 @@ const mail_input = document.getElementById('mail-input');
 const soth_input = document.getElementById('soth-input');
 const mesaje_input = document.getElementById('mesaje-input');
 const principalHadder = () =>{
-    let arrayInputs = ["Nombre", "Correo", "Asunto", "Mensaje"];    
+    let arrayInputs = ["  Nombre", "  Correo", "  Asunto", " Mensaje"];    
     styles();
     layoutsFixers();
     const fromPlaceHolders = () =>{

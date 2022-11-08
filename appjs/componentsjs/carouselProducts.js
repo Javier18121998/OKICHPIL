@@ -94,22 +94,53 @@ const createCardProduct = () =>{
         const imgThree = document.createElement("img");
         const imgFour = document.createElement("img");
         const createPicTable = () =>{
-            firstPic.src = "../image_Container/productos/firstProduct.png";
+            firstPic.src = "../image_Container/productos/firstfirstproduct.png";
             firstPic.classList.add("card-img-top");
         }
         const createTableBody = () =>{
             imgOne.src = "../image_Container/productos/firstProduct.png";
-            imgOne.style.border = "1px solid orange";
-            // whats the function of border in js?
-            imgTwo.src = "../image_Container/productos/firstProduct.png";
-            imgThree.src = "../image_Container/productos/firstProduct.png";
-            imgFour.src = "../image_Container/productos/firstProduct.png";
+            imgOne.style.border = "0.14rem solid orange";
+            imgTwo.src = "../image_Container/productos/firstsecproduct.png";
+            imgThree.src = "../image_Container/productos/firstthirdproduct.png";
+            imgFour.src = "../image_Container/productos/firstfourtproduct.png";
             tableBody.classList.add("card-body");
             tableBody.classList.add("card-Body");
             tableBody.appendChild(imgOne);
             tableBody.appendChild(imgTwo);
             tableBody.appendChild(imgThree);
             tableBody.appendChild(imgFour);
+            imgOne.addEventListener('click', function(){
+                imgOne.style.border = "0.14rem solid orange"
+                imgTwo.style.border = "none"
+                imgFour.style.border = "none"
+                imgThree.style.border = "none"
+                firstPic.src = "../image_Container/productos/firstfirstproduct.png";
+            })
+            imgTwo.addEventListener('click', function(){
+                imgTwo.style.border = "0.14rem solid orange"
+                imgOne.style.border = "none"
+                imgFour.style.border = "none"
+                imgThree.style.border = "none"
+                firstPic.src = "../image_Container/productos/firstsecproduct.png";
+                firstPic.style.height = "auto";
+            })
+            imgThree.addEventListener('click', function(){
+                imgThree.style.border = "0.14rem solid orange"
+                imgOne.style.border = "none"
+                imgFour.style.border = "none"
+                imgTwo.style.border = "none"
+                firstPic.src = "../image_Container/productos/firstthirdproduct.png";
+                firstPic.style.height = "auto";
+            })
+            
+            imgFour.addEventListener('click', function(){
+                imgFour.style.border = "0.14rem solid orange"
+                imgOne.style.border = "none"
+                imgThree.style.border = "none"
+                imgTwo.style.border = "none"
+                firstPic.src = "../image_Container/productos/firstfourtproduct.png";
+                firstPic.style.height = "auto";
+            })
         }
         const creattingTable = () =>{
             createTableBody();
